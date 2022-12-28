@@ -1,6 +1,7 @@
 // Problem: B. Matrix Rotation
 // Contest: Codeforces Round #839 (Div. 3)
 // URL: https://codeforces.com/contest/1772/problem/B
+// Rating: 800
 
 #include <bits/stdc++.h>
 using namespace std;

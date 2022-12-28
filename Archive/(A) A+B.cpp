@@ -1,6 +1,7 @@
 // Problem: A. A+B?
 // Contest: Codeforces Round #839 (Div. 3)
 // URL: https://codeforces.com/contest/1772/problem/A
+// Rating: 800
 
 #include <bits/stdc++.h>
 using namespace std;
