@@ -12,24 +12,22 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int n;
-  cin >> n;
-  int k = 0;
-  while (n--) {
-    int s = 0;
-    for (int i = 0; i < 3; i++) {
-      bool j;
-      cin >> j;
-      if (j)
-        s++;
-    }
+	int n;
+	cin >> n;
+	int k = 0;
+	while (n--) {
+		int s = 0;
+		for (int i = 0; i < 3; i++) {
+			bool j;
+			cin >> j;
+			if (j) s++;
+		}
 
-    if (s > 1)
-      k++;
-  }
-  cout << k;
-  return 0;
+		if (s > 1) k++;
+	}
+	cout << k;
+	return 0;
 }

@@ -9,17 +9,16 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int n, x = 0;
-  string op;
-  cin >> n;
-  while (cin >> op)
-    if (op.find("++") != string::npos)
-      x++;
-    else
-      x--;
-  cout << x << '\n';
-  return 0;
+	int    n, x = 0;
+	string op;
+	cin >> n;
+	while (cin >> op)
+		if (op.find("++") != string::npos) x++;
+		else
+			x--;
+	cout << x << '\n';
+	return 0;
 }

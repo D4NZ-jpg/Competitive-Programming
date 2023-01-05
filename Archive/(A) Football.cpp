@@ -7,25 +7,24 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  string s;
-  cin >> s;
-  int current = s[0];
-  int countm = 0;
-  for (int i = 0; i < s.size(); i++) {
-    if (s[i] == current)
-      countm++;
-    else {
-      countm = 1;
-      current = s[i];
-    }
-    if (countm >= 7) {
-      cout << "YES";
-      return 0;
-    }
-  }
-  cout << "NO";
-  return 0;
+	string s;
+	cin >> s;
+	int current = s[0];
+	int countm  = 0;
+	for (int i = 0; i < s.size(); i++) {
+		if (s[i] == current) countm++;
+		else {
+			countm  = 1;
+			current = s[i];
+		}
+		if (countm >= 7) {
+			cout << "YES";
+			return 0;
+		}
+	}
+	cout << "NO";
+	return 0;
 }

@@ -7,20 +7,19 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  int t;
-  cin >> t;
+	int t;
+	cin >> t;
 
-  while (t--) {
-    string s;
-    cin >> s;
+	while (t--) {
+		string s;
+		cin >> s;
 
-    for (int i = s.size() - 1; i >= 0; i--)
-      s += s[i];
+		for (int i = s.size() - 1; i >= 0; i--) s += s[i];
 
-    cout << s << '\n';
-  }
-  return 0;
+		cout << s << '\n';
+	}
+	return 0;
 }

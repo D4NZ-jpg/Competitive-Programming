@@ -9,21 +9,20 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int n, m;
-  cin >> n >> m;
+	int n, m;
+	cin >> n >> m;
 
-  int r = n * (n + 1) / 2;
-  m %= r;
+	int r = n * (n + 1) / 2;
+	m %= r;
 
-  for (int i = 0; i < n; i++)
-    if (m >= i)
-      m -= i;
-    else
-      break;
-  cout << m;
+	for (int i = 0; i < n; i++)
+		if (m >= i) m -= i;
+		else
+			break;
+	cout << m;
 
-  return 0;
+	return 0;
 }

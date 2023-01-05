@@ -9,22 +9,22 @@
 using namespace std;
 
 int main() {
-  // cin.tie(nullptr);
-  // ios_base::sync_with_stdio(false);
+	// cin.tie(nullptr);
+	// ios_base::sync_with_stdio(false);
 
-  int64_t a, b, counter = 0;
+	int64_t a, b, counter = 0;
 
-  cin >> a >> b;
+	cin >> a >> b;
 
-  while (a > 0 && b > 0)
-    if (a > b) {
-      counter += a / b;
-      a %= b;
-    } else {
-      counter += b / a;
-      b %= a;
-    }
+	while (a > 0 && b > 0)
+		if (a > b) {
+			counter += a / b;
+			a %= b;
+		} else {
+			counter += b / a;
+			b %= a;
+		}
 
-  cout << counter;
-  return 0;
+	cout << counter;
+	return 0;
 }

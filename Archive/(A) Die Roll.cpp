@@ -9,13 +9,13 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int y, w;
-  cin >> y >> w;
-  int div = 6 - max(y, w) + 1;
-  int gcd = __gcd(div, 6);
-  cout << div / gcd << '/' << 6 / gcd;
-  return 0;
+	int y, w;
+	cin >> y >> w;
+	int div = 6 - max(y, w) + 1;
+	int gcd = __gcd(div, 6);
+	cout << div / gcd << '/' << 6 / gcd;
+	return 0;
 }

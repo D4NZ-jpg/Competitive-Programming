@@ -12,22 +12,21 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int row, column;
-  for (int i = 0; i < 5; i++)
-    for (int j = 0; j < 5; j++) {
-      bool k;
-      cin >> k;
-      if (!k)
-        continue;
-      row = i;
-      column = j;
-      goto out;
-    }
+	int row, column;
+	for (int i = 0; i < 5; i++)
+		for (int j = 0; j < 5; j++) {
+			bool k;
+			cin >> k;
+			if (!k) continue;
+			row    = i;
+			column = j;
+			goto out;
+		}
 out:
-  cout << abs(2 - row) + abs(2 - column);
+	cout << abs(2 - row) + abs(2 - column);
 
-  return 0;
+	return 0;
 }

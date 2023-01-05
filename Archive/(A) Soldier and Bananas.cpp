@@ -12,13 +12,13 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int k, n, w;
-  cin >> k >> n >> w;
-  int res = w * (w + 1) / 2 * k;
-  cout << (res > n ? res - n : 0);
+	int k, n, w;
+	cin >> k >> n >> w;
+	int res = w * (w + 1) / 2 * k;
+	cout << (res > n ? res - n : 0);
 
-  return 0;
+	return 0;
 }

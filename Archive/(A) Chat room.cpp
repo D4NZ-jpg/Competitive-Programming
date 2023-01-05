@@ -7,20 +7,20 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  string s;
-  cin >> s;
-  string hello = "hello";
-  int ptr = 0;
-  for (int i = 0; i < s.size(); i++) {
-    if (s[i] == hello[ptr])
-      if (++ptr >= hello.size()) {
-        cout << "YES";
-        return 0;
-      }
-  }
-  cout << "NO";
-  return 0;
+	string s;
+	cin >> s;
+	string hello = "hello";
+	int    ptr   = 0;
+	for (int i = 0; i < s.size(); i++) {
+		if (s[i] == hello[ptr])
+			if (++ptr >= hello.size()) {
+				cout << "YES";
+				return 0;
+			}
+	}
+	cout << "NO";
+	return 0;
 }

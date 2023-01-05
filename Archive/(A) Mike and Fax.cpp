@@ -9,26 +9,26 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  string s;
-  int k;
-  cin >> s >> k;
+	string s;
+	int    k;
+	cin >> s >> k;
 
-  if (s.size() % k) {
-    cout << "NO";
-    return 0;
-  }
+	if (s.size() % k) {
+		cout << "NO";
+		return 0;
+	}
 
-  k = s.size() / k;
-  for (int i = 0; i < s.size(); i += k)
-    for (int j = 0; j < k / 2; j++)
-      if (s[i + j] != s[i + k - j - 1]) {
-        cout << "NO";
-        return 0;
-      }
+	k = s.size() / k;
+	for (int i = 0; i < s.size(); i += k)
+		for (int j = 0; j < k / 2; j++)
+			if (s[i + j] != s[i + k - j - 1]) {
+				cout << "NO";
+				return 0;
+			}
 
-  cout << "YES";
-  return 0;
+	cout << "YES";
+	return 0;
 }

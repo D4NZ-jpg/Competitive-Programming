@@ -7,27 +7,27 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  int t;
-  cin >> t;
+	int t;
+	cin >> t;
 
-  while (t--) {
-    string n;
-    cin >> n;
+	while (t--) {
+		string n;
+		cin >> n;
 
-    int counter = 0;
-    bool started = false;
-    for (int i = 0; i < n.size(); i++) {
-      if (!started && n[i] != '0') {
-        counter += (int)(n[i] - '0');
-        started = true;
-        continue;
-      } else if (started)
-        counter += 9;
-    }
+		int  counter = 0;
+		bool started = false;
+		for (int i = 0; i < n.size(); i++) {
+			if (!started && n[i] != '0') {
+				counter += (int)(n[i] - '0');
+				started = true;
+				continue;
+			} else if (started)
+				counter += 9;
+		}
 
-    cout << counter << '\n';
-  }
+		cout << counter << '\n';
+	}
 }

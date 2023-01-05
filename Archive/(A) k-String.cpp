@@ -9,31 +9,28 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  string s;
-  int k;
-  map<char, int> chars;
+	string         s;
+	int            k;
+	map<char, int> chars;
 
-  cin >> k >> s;
-  if (s.size() % k) {
-    cout << -1;
-    return 0;
-  }
-  for (auto &i : s)
-    chars[i]++;
+	cin >> k >> s;
+	if (s.size() % k) {
+		cout << -1;
+		return 0;
+	}
+	for (auto& i : s) chars[i]++;
 
-  string subtr = "";
-  for (auto &i : chars)
-    if (i.second % k) {
-      cout << -1;
-      return 0;
-    } else
-      for (int j = 0; j < i.second / k; j++)
-        subtr += i.first;
+	string subtr = "";
+	for (auto& i : chars)
+		if (i.second % k) {
+			cout << -1;
+			return 0;
+		} else
+			for (int j = 0; j < i.second / k; j++) subtr += i.first;
 
-  for (int i = 0; i < k; i++)
-    cout << subtr;
-  return 0;
+	for (int i = 0; i < k; i++) cout << subtr;
+	return 0;
 }

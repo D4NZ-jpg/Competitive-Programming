@@ -9,22 +9,21 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int n;
-  cin >> n;
+	int n;
+	cin >> n;
 
-  if (n % 2) {
-    cout << -1;
-    return 0;
-  }
+	if (n % 2) {
+		cout << -1;
+		return 0;
+	}
 
-  for (int i = 1; i < n + 1; i++)
-    if (i % 2)
-      cout << i + 1 << ' ';
-    else
-      cout << i - 1 << ' ';
+	for (int i = 1; i < n + 1; i++)
+		if (i % 2) cout << i + 1 << ' ';
+		else
+			cout << i - 1 << ' ';
 
-  return 0;
+	return 0;
 }

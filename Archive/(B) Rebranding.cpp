@@ -12,39 +12,34 @@
 using namespace std;
 
 #define gcd(x, y) __gcd(x, y)
-#define mcm(x, y) abs(x *y) / gcd(x, y)
-#define sz(x) (int)(x).size()
-#define all(x) begin(x), end(x)
+#define mcm(x, y) abs(x* y) / gcd(x, y)
+#define sz(x)     (int)(x).size()
+#define all(x)    begin(x), end(x)
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  int n, m;
-  cin >> n >> m;
-  string s;
-  cin >> s;
+	int n, m;
+	cin >> n >> m;
+	string s;
+	cin >> s;
 
-  map<char, char> changes;
-  while (m--) {
-    char a, b;
-    cin >> a >> b;
-    if (a == b)
-      continue;
-    for (auto &i : changes)
-      if (i.second == a)
-        i.second = b;
-      else if (i.second == b)
-        i.second = a;
+	map<char, char> changes;
+	while (m--) {
+		char a, b;
+		cin >> a >> b;
+		if (a == b) continue;
+		for (auto& i : changes)
+			if (i.second == a) i.second = b;
+			else if (i.second == b)
+				i.second = a;
 
-    if (!changes.count(a))
-      changes[a] = b;
-    if (!changes.count(b))
-      changes[b] = a;
-  }
+		if (!changes.count(a)) changes[a] = b;
+		if (!changes.count(b)) changes[b] = a;
+	}
 
-  for (auto &i : s)
-    cout << (changes.count(i) ? changes[i] : i);
+	for (auto& i : s) cout << (changes.count(i) ? changes[i] : i);
 
-  return 0;
+	return 0;
 }

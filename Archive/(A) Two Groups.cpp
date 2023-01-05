@@ -7,21 +7,21 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  int t;
-  cin >> t;
-  while (t--) {
-    int64_t n, total = 0;
-    cin >> n;
+	int t;
+	cin >> t;
+	while (t--) {
+		int64_t n, total = 0;
+		cin >> n;
 
-    while (n--) {
-      int64_t i;
-      cin >> i;
-      total += i;
-    }
-    cout << abs(total) << '\n';
-  }
-  return 0;
+		while (n--) {
+			int64_t i;
+			cin >> i;
+			total += i;
+		}
+		cout << abs(total) << '\n';
+	}
+	return 0;
 }

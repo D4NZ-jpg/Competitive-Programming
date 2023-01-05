@@ -7,18 +7,17 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  int t;
-  cin >> t;
-  while (t--) {
-    vector<int16_t> nums(3);
-    for (int i = 0; i < 3; i++)
-      cin >> nums[i];
+	int t;
+	cin >> t;
+	while (t--) {
+		vector<int16_t> nums(3);
+		for (int i = 0; i < 3; i++) cin >> nums[i];
 
-    sort(nums.begin(), nums.end());
-    cout << nums[1] << '\n';
-  }
-  return 0;
+		sort(nums.begin(), nums.end());
+		cout << nums[1] << '\n';
+	}
+	return 0;
 }

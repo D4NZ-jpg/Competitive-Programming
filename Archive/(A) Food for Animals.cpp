@@ -7,27 +7,24 @@
 using namespace std;
 
 int main() {
-  std::cin.tie(nullptr);
-  std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	std::ios_base::sync_with_stdio(false);
 
-  int t;
-  cin >> t;
-  while (t--) {
-    int a, b, c, x, y;
-    cin >> a >> b >> c >> x >> y;
-    x -= a;
-    y -= b;
+	int t;
+	cin >> t;
+	while (t--) {
+		int a, b, c, x, y;
+		cin >> a >> b >> c >> x >> y;
+		x -= a;
+		y -= b;
 
-    if (x < 0)
-      x = 0;
-    if (y < 0)
-      y = 0;
+		if (x < 0) x = 0;
+		if (y < 0) y = 0;
 
-    if (x + y - c > 0)
-      cout << "NO" << '\n';
-    else
-      cout << "YES" << '\n';
-  }
+		if (x + y - c > 0) cout << "NO" << '\n';
+		else
+			cout << "YES" << '\n';
+	}
 
-  return 0;
+	return 0;
 }

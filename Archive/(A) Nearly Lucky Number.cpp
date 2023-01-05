@@ -9,27 +9,26 @@
 using namespace std;
 
 int main() {
-  cin.tie(nullptr);
-  ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
-  uint64_t n, counter = 0;
-  cin >> n;
+	uint64_t n, counter = 0;
+	cin >> n;
 
-  while (n) {
-    if (n % 10 == 4 || n % 10 == 7)
-      counter++;
-    n /= 10;
-  }
+	while (n) {
+		if (n % 10 == 4 || n % 10 == 7) counter++;
+		n /= 10;
+	}
 
-  do {
-    if (!(counter % 10 == 4 || counter % 10 == 7)) {
-      cout << "NO";
-      return 0;
-    };
-    counter /= 10;
-  } while (counter);
+	do {
+		if (!(counter % 10 == 4 || counter % 10 == 7)) {
+			cout << "NO";
+			return 0;
+		};
+		counter /= 10;
+	} while (counter);
 
-  cout << "YES";
+	cout << "YES";
 
-  return 0;
+	return 0;
 }
