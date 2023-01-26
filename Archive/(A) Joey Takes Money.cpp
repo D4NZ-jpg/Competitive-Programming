@@ -1,6 +1,7 @@
 // Problem: A. Joey Takes Money
 // Contest: Codeforces - Codeforces Round #841 (Div. 2) and Divide by
 // URL: https://codeforces.com/contest/1731/problem/A
+// Rating: 800
 
 #include <bits/stdc++.h>
 using namespace std;
