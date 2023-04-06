@@ -1,5 +1,5 @@
 // Problem: B. Decode String
-// Contest: Codeforces Round #820 (Div. 3)
+// Contest: Codeforces Round 820 (Div. 3)
 // URL: https://codeforces.com/contest/1729/problem/B
 // Rating: 800
 

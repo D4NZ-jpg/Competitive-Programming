@@ -1,5 +1,5 @@
 // Problem: B. XOR = Average
-// Contest: Codeforces Round #836 (Div. 2)
+// Contest: Codeforces Round 836 (Div. 2)
 // URL: https://codeforces.com/contest/1758/problem/B
 // Rating: 900
 

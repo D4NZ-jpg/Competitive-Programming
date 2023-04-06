@@ -1,5 +1,5 @@
 // Problem: A. Food for Animals
-// Contest: Codeforces Round #787 (Div. 3)
+// Contest: Codeforces Round 787 (Div. 3)
 // URL: https://codeforces.com/contest/1675/problem/A
 // Rating: 800
 

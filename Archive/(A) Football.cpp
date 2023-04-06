@@ -1,5 +1,5 @@
 // Problem: A. Football
-// Contest: Codeforces Beta Round #77 (Div. 2 Only)
+// Contest: Codeforces Beta Round 77 (Div. 2 Only)
 // URL: https://codeforces.com/contest/96/problem/A
 // Rating: 900
 

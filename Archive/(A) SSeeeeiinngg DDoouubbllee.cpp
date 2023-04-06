@@ -1,5 +1,5 @@
 // Problem: A. SSeeeeiinngg DDoouubbllee
-// Contest: Codeforces Round #836 (Div. 2)
+// Contest: Codeforces Round 836 (Div. 2)
 // URL: https://codeforces.com/contest/1758/problem/A
 // Rating: 800
 

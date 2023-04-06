@@ -1,5 +1,5 @@
 // Problem: A. Divide and Conquer
-// Contest: Codeforces Round #838 (Div. 2)
+// Contest: Codeforces Round 838 (Div. 2)
 // URL: https://codeforces.com/contest/1762/problem/A
 // Rating: 800
 

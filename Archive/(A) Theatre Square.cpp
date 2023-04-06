@@ -1,5 +1,5 @@
 // Problem: A. Theatre Square
-// Contest: Codeforces Beta Round #1
+// Contest: Codeforces Beta Round 1
 // URL: https://codeforces.com/contest/1/problem/A
 // Rating: 1000
 

@@ -1,5 +1,5 @@
 // Problem: A. Absolute Maximization
-// Contest: Codeforces Round #840 (Div. 2) and Enigma 2022 - Cybros
+// Contest: Codeforces Round 840 (Div. 2) and Enigma 2022 - Cybros
 // LNMIIT URL: https://codeforces.com/contest/1763/problem/A Rating:
 // 800
 

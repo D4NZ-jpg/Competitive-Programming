@@ -1,5 +1,5 @@
 // Problem: B. Interesting drink
-// Contest: Codeforces Round #367 (Div. 2)
+// Contest: Codeforces Round 367 (Div. 2)
 // URL: https://codeforces.com/contest/706/problem/B
 // Rating: 1100
 

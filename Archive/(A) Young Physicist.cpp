@@ -1,5 +1,5 @@
 // Problem: A. Young Physicist
-// Contest: Codeforces Beta Round #63 (Div. 2)
+// Contest: Codeforces Beta Round 63 (Div. 2)
 // URL: https://codeforces.com/contest/69/problem/A
 // Rating: 1000
 

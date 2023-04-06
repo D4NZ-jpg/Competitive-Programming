@@ -1,5 +1,5 @@
 // Problem: A. Watermelon
-// Contest: Codeforces Beta Round #4 (Div. 2 Only)
+// Contest: Codeforces Beta Round 4 (Div. 2 Only)
 // URL: https://codeforces.com/contest/4/problem/A
 // Rating: 800
 

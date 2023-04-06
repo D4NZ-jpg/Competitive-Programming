@@ -1,5 +1,5 @@
 // Problem: B. Atilla's Favorite Problem
-// Contest: Codeforces Round #835 (Div. 4)
+// Contest: Codeforces Round 835 (Div. 4)
 // URL: https://codeforces.com/contest/1760/problem/B
 // Rating: 800
 

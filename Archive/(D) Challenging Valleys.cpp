@@ -1,5 +1,5 @@
 // Problem: D. Challenging Valleys
-// Contest: Codeforces Round #835 (Div. 4)
+// Contest: Codeforces Round 835 (Div. 4)
 // URL: https://codeforces.com/contest/1760/problem/D
 // Rating: 1000
 

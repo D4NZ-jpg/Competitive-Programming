@@ -1,5 +1,5 @@
 // Problem: A. Two Groups
-// Contest: Codeforces Round #832 (Div. 2)
+// Contest: Codeforces Round 832 (Div. 2)
 // URL: https://codeforces.com/contest/1747/problem/A
 // Rating: 800
 

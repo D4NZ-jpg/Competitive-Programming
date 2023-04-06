@@ -1,5 +1,5 @@
 // Problem: A. Way Too Long Words
-// Contest: Codeforces Beta Round #65 (Div. 2)
+// Contest: Codeforces Beta Round 65 (Div. 2)
 // URL: https://codeforces.com/contest/71/problem/A
 // Rating: 800
 

@@ -1,5 +1,5 @@
 // Problem: A. String Task
-// Contest: Codeforces Beta Round #89 (Div. 2)
+// Contest: Codeforces Beta Round 89 (Div. 2)
 // URL: https://codeforces.com/contest/118/problem/A
 // Rating: 1000
 

@@ -1,5 +1,5 @@
 // Problem: C. Odd/Even Increments
-// Contest: Codeforces Round #784 (Div. 4)
+// Contest: Codeforces Round 784 (Div. 4)
 // URL: https://codeforces.com/contest/1669/problem/C
 // Rating: 800
 
