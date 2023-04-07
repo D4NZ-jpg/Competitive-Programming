@@ -24,7 +24,7 @@ class Scraper:
         csrf = re.search('name="X-Csrf-Token" content="([0-9a-f]+)"', html).group(1)
         self.session.headers.update({"X-Csrf-Token": csrf})
 
-    def get_rcpc(html):
+    def get_rcpc(self, html):
         def getvar(var):
             return bytes.fromhex(
                 re.search(var + '=toNumbers\("([0-9a-f]+)"\)', html).group(1)
@@ -123,6 +123,7 @@ def addHeaders(code, data, submission) -> str:
 
 if __name__ == "__main__":
     load_dotenv()
+
     # Get all submissions with an OK verdict
     submissions = [
         s
@@ -134,10 +135,19 @@ if __name__ == "__main__":
         if s["verdict"] == "OK"
     ]
 
+    lock = []
+
+    if os.path.isfile('lock.json'):
+        with open('lock.json', 'r') as f:
+            lock = json.load(f)
+
     scraper = Scraper()
 
     # format code
     for submission in submissions:
+        if(submission["id"] in lock):
+            continue
+        
         data = scraper.getSubmission(submission["id"])
 
         # remove any invalide characters from problem name
@@ -151,3 +161,10 @@ if __name__ == "__main__":
 
             # Format code and write to file
             f.write(formatCode(data["source"]))
+
+            # Add id to lock
+            lock.append(submission["id"])
+
+    
+    with open('lock.json', 'w') as f:
+        f.write(json.dumps(lock))
