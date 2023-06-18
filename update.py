@@ -1,46 +1,13 @@
 import re, requests, json, subprocess, re, os
-from Crypto.Cipher import AES
+from bs4 import BeautifulSoup as bs
 from datetime import datetime
 from dotenv import load_dotenv
 
+def getSubmission(contest, id) -> str:
+    res = requests.get(f"https://codeforces.com/contest/{contest}/submission/{id}").content
+    page = bs(res, "html.parser")
 
-class Scraper:
-    def __init__(self) -> None:
-        user_agent = "Mozilla/5.0 AppleWebKit/537.36 Chrome/102.0.4972.0 Safari/537.36"
-        home_page = "https://codeforces.com"
-
-        self.session = requests.Session()
-        self.session.headers.update({"User-Agent": user_agent})
-        r = self.session.get(home_page)
-        r.raise_for_status()
-        html = r.text
-        if "/aes.min.js" in html:
-            rcpc = self.get_rcpc(html)
-            self.session.cookies.set("RCPC", rcpc, domain="codeforces.com", path="/")
-            r = self.session.get(home_page)
-            r.raise_for_status()
-            html = r.text
-
-        csrf = re.search('name="X-Csrf-Token" content="([0-9a-f]+)"', html).group(1)
-        self.session.headers.update({"X-Csrf-Token": csrf})
-
-    def get_rcpc(self, html):
-        def getvar(var):
-            return bytes.fromhex(
-                re.search(var + '=toNumbers\("([0-9a-f]+)"\)', html).group(1)
-            )
-
-        key, iv, ciphertext = getvar("a"), getvar("b"), getvar("c")
-        return AES.new(key, AES.MODE_CBC, iv=iv).decrypt(ciphertext).hex()
-
-    def getSubmission(self, id):
-        return json.loads(
-            self.session.post(
-                "https://codeforces.com/data/submitSource",
-                data={"submissionId": str(id)},
-            ).text
-        )
-
+    return page.find(id="program-source-text").text
 
 def formatCode(code) -> str:
     p = subprocess.Popen(
@@ -141,14 +108,19 @@ if __name__ == "__main__":
         with open('lock.json', 'r') as f:
             lock = json.load(f)
 
-    scraper = Scraper()
-
     # format code
     for submission in submissions:
         if(submission["id"] in lock):
             continue
-        
-        data = scraper.getSubmission(submission["id"])
+
+        data = {}
+        data["source"] = getSubmission(submission["contestId"], submission["id"])
+        data["problemName"] = f"({submission['problem']['index']}) {submission['problem']['name']}"
+        data["contestName"] = json.loads(
+            requests.get(
+                f"https://codeforces.com/api/contest.standings?contestId={submission['problem']['contestId']}"
+            ).text
+        )["result"]["contest"]["name"]
 
         # remove any invalide characters from problem name
         for char in data["problemName"]:
