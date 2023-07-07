@@ -1,7 +1,7 @@
 import re, requests, json, subprocess, re, os
 from bs4 import BeautifulSoup as bs
 from datetime import datetime
-from dotenv import load_dotenv
+from dotenv import dotenv_values
 
 def getSubmission(contest, id) -> str:
     res = requests.get(f"https://codeforces.com/contest/{contest}/submission/{id}").content
@@ -89,14 +89,14 @@ def addHeaders(code, data, submission) -> str:
 
 
 if __name__ == "__main__":
-    load_dotenv()
+    user = dotenv_values(".env")["USER"]
 
     # Get all submissions with an OK verdict
     submissions = [
         s
         for s in json.loads(
             requests.get(
-                f"https://codeforces.com/api/user.status?handle={os.getenv('USER')}"
+                f"https://codeforces.com/api/user.status?handle={user}"
             ).text
         )["result"]
         if s["verdict"] == "OK"
