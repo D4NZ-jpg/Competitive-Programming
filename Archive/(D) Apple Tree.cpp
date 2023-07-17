@@ -3,93 +3,83 @@
 // URL: https://codeforces.com/contest/1843/problem/D
 // Memory Limit: 512 MB
 // Time Limit: 4000 ms
-// Start: 20-06-2023 08:35:48
-// End: 20-06-2023 10:21:26
-// Duration: 1:45:38
+// Start: 06-07-2023 23:07:30
+// End: 07-07-2023 00:32:48
+// Duration: 1:25:18
+// Rating: 1200
 
-#include <bits/stdc++.h>
+#include <queue>
+
 using namespace std;
 
+using uint = unsigned int;
+
 #define gcd(x, y) __gcd(x, y)
-#define mcm(x, y) abs(x* y) / gcd(x, y)
+#define mcm(x, y) abs((x) * (y)) / gcd(x, y)
 #define sz(x)     (int)(x).size()
 #define all(x)    begin(x), end(x)
 #define pb(x)     push_back(x)
+#define v(x)      vector<x>
+#define endl      '\n'
 
-map<int, vector<int>> g;
-map<int, int>         memo;
+map<int, v(int)> tree;
+map<int, int>    mem;
 
-int cal(int j) {
-	if (!g.count(j)) {
-		memo[j] = 1;
-		return 1;
-	}
+uint64_t getChildren(int x) {
+	if (mem.count(x)) return mem[x];
+	if (!tree.count(x)) return 1;
 
-	int children = 0;
+	uint64_t sum = 0;
+	for (auto& child : tree[x]) sum += getChildren(child);
 
-	for (int i = 0; i < g[j].size(); i++) {
-		if (memo.count(g[j][i])) children += memo[g[j][i]];
-		else
-			children += cal(g[j][i]);
-	}
-
-	memo[j] = children;
-	return children;
+	mem[x] = sum;
+	return sum;
 }
 
 int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int t;
-	cin >> t;
-	while (t--) {
+	int q;
+	cin >> q;
+	while (q--) {
 		int n;
 		cin >> n;
 
-		g.clear();
-		memo.clear();
+		map<int, v(int)> tmp;
+		tree.clear();
 
-		map<int, vector<int>> tmp;
-		while (--n) {
+		for (int i = 0; i < n - 1; i++) {
 			int u, v;
 			cin >> u >> v;
 			tmp[u].pb(v);
 			tmp[v].pb(u);
 		}
 
-		// Prepare tree
-		set<int>   v;
-		queue<int> fila;
-		fila.push(1);
-		while (fila.size()) {
-			int curr = fila.front();
-			fila.pop();
+		// Prep tree
+		queue<int> bfs;
+		set<int>   visited;
+		bfs.push(1);
+		while (sz(bfs)) {
+			int curr = bfs.front();
+			bfs.pop();
 
-			if (v.count(curr)) continue;
-			v.insert(curr);
+			if (visited.count(curr)) continue;
+			visited.insert(curr);
 
-			for (int& i : tmp[curr]) {
-				fila.push(i);
-				if (!v.count(i)) g[curr].pb(i);
+			for (int& child : tmp[curr]) {
+				if (!visited.count(child)) tree[curr].pb(child);
+				bfs.push(child);
 			}
 		}
 
+		mem.clear();
 		int q;
 		cin >> q;
 		while (q--) {
-			int64_t x, y, sX, sY;
+			uint64_t x, y;
 			cin >> x >> y;
-
-			if (memo.count(x)) sX = memo[x];
-			else
-				sX = cal(x);
-
-			if (memo.count(y)) sY = memo[y];
-			else
-				sY = cal(y);
-
-			cout << sX * sY << endl;
+			cout << getChildren(x) * getChildren(y) << endl;
 		}
 	}
 
