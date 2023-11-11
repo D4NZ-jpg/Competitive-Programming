@@ -36,6 +36,7 @@ ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
 ConstructorInitializerIndentWidth: '4'
 ContinuationIndentWidth: '2'
 IndentWidth: '4'
+ReflowComments: 'false'
 Standard: Auto
 TabWidth: '4'
 UseTab: ForIndentation
