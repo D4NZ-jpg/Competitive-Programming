@@ -1,13 +1,12 @@
 // Problem: C. k-th equality
 // Contest: Codeforces - Codeforces Round 880 (Div. 2)
-// URL: https://codeforces.com/contest/1836/problem/C
+// URL: https://codeforces.com/problemset/problem/1836/C
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 18-06-2023 20:46:09
-// End: 19-06-2023 20:01:56
 // Duration: 23:15:47
+// End: 2023-06-19 20:01:56
 // Rating: 1700
-
 #include <bits/stdc++.h>
 using namespace std;
 

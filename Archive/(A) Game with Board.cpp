@@ -1,8 +1,11 @@
 // Problem: A. Game with Board
 // Contest: Codeforces - Educational Codeforces Round 150 (Rated for
-// URL: https://codeforces.com/contest/1841/problem/A
+// Div. 2) URL: https://codeforces.com/contest/1841/problem/A Memory
+// Limit: 512 MB Time Limit: 2000 ms Start: 17-06-2023 14:40:10
+// Duration: None
+// End: 2023-06-17 14:54:29
 // Rating: 800
-
+// URL: https://codeforces.com/problemset/problem/1841/A
 #include <bits/stdc++.h>
 using namespace std;
 

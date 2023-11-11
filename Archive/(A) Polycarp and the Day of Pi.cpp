@@ -1,13 +1,12 @@
 // Problem: A. Polycarp and the Day of Pi
 // Contest: Codeforces - Codeforces Round #847 (Div. 3)
-// URL: https://codeforces.com/contest/1790/problem/A
+// URL: https://codeforces.com/problemset/problem/1790/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 27-01-2023 08:36:32
-// End: 27-01-2023 08:48:41
 // Duration: 0:12:09
+// End: 2023-01-27 08:48:41
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,12 +1,12 @@
 // Problem: B. Long Long
 // Contest: Codeforces - Codeforces Round 881 (Div. 3)
-// URL: https://codeforces.com/contest/1843/problem/B
+// URL: https://codeforces.com/problemset/problem/1843/B
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
 // Start: 20-06-2023 08:35:44
-// End: 20-06-2023 08:59:48
 // Duration: 0:24:04
-
+// End: 2023-06-20 08:59:48
+// Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
 

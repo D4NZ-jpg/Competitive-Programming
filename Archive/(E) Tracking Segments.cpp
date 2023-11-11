@@ -1,12 +1,12 @@
 // Problem: E. Tracking Segments
 // Contest: Codeforces - Codeforces Round 881 (Div. 3)
-// URL: https://codeforces.com/contest/1843/problem/E
+// URL: https://codeforces.com/problemset/problem/1843/E
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
 // Start: 20-06-2023 08:35:48
-// End: 22-06-2023 00:01:33
 // Duration: 1 day, 15:25:45
-
+// End: 2023-06-22 00:01:33
+// Rating: 1600
 #include <bits/stdc++.h>
 using namespace std;
 

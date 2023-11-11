@@ -1,13 +1,12 @@
 // Problem: A. Showstopper
 // Contest: Codeforces - Codeforces Round 860 (Div. 2)
-// URL: https://codeforces.com/contest/1798/problem/A
+// URL: https://codeforces.com/problemset/problem/1798/A
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
 // Start: 26-03-2023 08:35:24
-// End: 26-03-2023 08:45:55
 // Duration: 0:10:31
+// End: 2023-03-26 08:45:55
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

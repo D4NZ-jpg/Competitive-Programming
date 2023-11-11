@@ -1,13 +1,12 @@
 // Problem: C. Premutation
 // Contest: Codeforces - Codeforces Round #847 (Div. 3)
-// URL: https://codeforces.com/contest/1790/problem/C
+// URL: https://codeforces.com/problemset/problem/1790/C
 // Memory Limit: 256 MB
 // Time Limit: 3000 ms
 // Start: 27-01-2023 09:04:08
-// End: 27-01-2023 09:38:41
 // Duration: 0:34:33
+// End: 2023-01-27 09:38:41
 // Rating: 1000
-
 #include <bits/stdc++.h>
 using namespace std;
 

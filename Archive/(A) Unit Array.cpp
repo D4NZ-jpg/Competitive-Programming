@@ -1,13 +1,12 @@
 // Problem: A. Unit Array
 // Contest: Codeforces - Codeforces Round 879 (Div. 2)
-// URL: https://codeforces.com/contest/1834/problem/A
+// URL: https://codeforces.com/problemset/problem/1834/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 19-06-2023 21:27:34
-// End: 19-06-2023 21:43:43
 // Duration: 0:16:09
+// End: 2023-06-19 21:43:43
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

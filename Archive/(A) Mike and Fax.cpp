@@ -3,8 +3,9 @@
 // URL: https://codeforces.com/problemset/problem/548/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
+// Duration: None
+// End: 2022-12-19 20:34:28
 // Rating: 1100
-
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,13 +1,12 @@
 // Problem: B. Maximum Strength
 // Contest: Codeforces - Codeforces Round 879 (Div. 2)
-// URL: https://codeforces.com/contest/1834/problem/B
+// URL: https://codeforces.com/problemset/problem/1834/B
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 19-06-2023 21:45:50
-// End: 19-06-2023 22:18:35
 // Duration: 0:32:45
+// End: 2023-06-19 22:18:35
 // Rating: 1000
-
 #include <bits/stdc++.h>
 using namespace std;
 

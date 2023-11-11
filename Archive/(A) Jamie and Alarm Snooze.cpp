@@ -3,8 +3,10 @@
 // URL: https://codeforces.com/problemset/problem/916/A
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
+// // Powered by CP Editor (https: cpeditor.org)
+// Duration: None
+// End: 2022-12-19 17:14:15
 // Rating: 900
-
 #include <bits/stdc++.h>
 using namespace std;
 

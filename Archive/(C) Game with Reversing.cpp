@@ -1,13 +1,12 @@
 // Problem: C. Game with Reversing
 // Contest: Codeforces - Codeforces Round 879 (Div. 2)
-// URL: https://codeforces.com/contest/1834/problem/C
+// URL: https://codeforces.com/problemset/problem/1834/C
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 20-06-2023 00:03:41
-// End: 20-06-2023 01:17:15
 // Duration: 1:13:34
+// End: 2023-06-20 01:17:15
 // Rating: 1200
-
 #include <bits/stdc++.h>
 using namespace std;
 

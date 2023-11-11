@@ -3,8 +3,10 @@
 // URL: https://codeforces.com/problemset/problem/527/A
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
+// ios_base: :sync_with_stdio(false);
+// Duration: None
+// End: 2022-12-19 19:07:07
 // Rating: 1100
-
 #include <bits/stdc++.h>
 using namespace std;
 

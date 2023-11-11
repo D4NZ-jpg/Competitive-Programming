@@ -1,13 +1,12 @@
 // Problem: B. Taisia and Dice
 // Contest: Codeforces - Codeforces Round #847 (Div. 3)
-// URL: https://codeforces.com/contest/1790/problem/B
+// URL: https://codeforces.com/problemset/problem/1790/B
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 27-01-2023 08:48:59
-// End: 27-01-2023 09:02:38
 // Duration: 0:13:39
+// End: 2023-01-27 09:02:38
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

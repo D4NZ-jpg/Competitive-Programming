@@ -1,12 +1,12 @@
 // Problem: A. Sasha and Array Coloring
 // Contest: Codeforces - Codeforces Round 881 (Div. 3)
-// URL: https://codeforces.com/contest/1843/problem/A
+// URL: https://codeforces.com/problemset/problem/1843/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 20-06-2023 08:35:41
-// End: 20-06-2023 08:55:30
 // Duration: 0:19:49
-
+// End: 2023-06-20 08:55:30
+// Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
 

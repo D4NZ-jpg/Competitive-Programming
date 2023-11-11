@@ -1,8 +1,11 @@
 // Problem: B. Keep it Beautiful
 // Contest: Codeforces - Educational Codeforces Round 150 (Rated for
-// URL: https://codeforces.com/contest/1841/problem/B
+// Div. 2) URL: https://codeforces.com/contest/1841/problem/B Memory
+// Limit: 512 MB Time Limit: 2000 ms Start: 17-06-2023 14:40:13
+// Duration: None
+// End: 2023-06-17 16:00:41
 // Rating: 1000
-
+// URL: https://codeforces.com/problemset/problem/1841/B
 #include <bits/stdc++.h>
 using namespace std;
 

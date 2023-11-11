@@ -1,12 +1,12 @@
 // Problem: C. Sum in Binary Tree
 // Contest: Codeforces - Codeforces Round 881 (Div. 3)
-// URL: https://codeforces.com/contest/1843/problem/C
+// URL: https://codeforces.com/problemset/problem/1843/C
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 20-06-2023 08:35:45
-// End: 20-06-2023 09:05:38
 // Duration: 0:29:53
-
+// End: 2023-06-20 09:05:38
+// Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
 

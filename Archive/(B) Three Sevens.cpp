@@ -1,13 +1,12 @@
 // Problem: B. Three Sevens
 // Contest: Codeforces - Codeforces Round 860 (Div. 2)
-// URL: https://codeforces.com/contest/1798/problem/B
+// URL: https://codeforces.com/problemset/problem/1798/B
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
 // Start: 26-03-2023 08:46:19
-// End: 26-03-2023 09:02:37
 // Duration: 0:16:18
+// End: 2023-03-26 09:02:37
 // Rating: 1000
-
 #include <bits/stdc++.h>
 using namespace std;
 

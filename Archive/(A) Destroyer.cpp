@@ -1,13 +1,12 @@
 // Problem: A. Destroyer
 // Contest: Codeforces - Codeforces Round 880 (Div. 2)
-// URL: https://codeforces.com/contest/1836/problem/A
+// URL: https://codeforces.com/problemset/problem/1836/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 18-06-2023 08:37:46
-// End: 18-06-2023 08:45:49
 // Duration: 0:08:03
+// End: 2023-06-18 08:45:49
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

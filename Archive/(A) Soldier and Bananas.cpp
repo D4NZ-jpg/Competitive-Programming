@@ -4,10 +4,9 @@
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 29-12-2022 20:08:04
-// End: 29-12-2022 20:09:31
 // Duration: 0:01:27
+// End: 2022-12-29 20:09:31
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

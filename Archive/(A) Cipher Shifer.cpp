@@ -1,13 +1,12 @@
 // Problem: A. Cipher Shifer
 // Contest: Codeforces - Codeforces Round 878 (Div. 3)
-// URL: https://codeforces.com/contest/1840/problem/A
+// URL: https://codeforces.com/problemset/problem/1840/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 20-06-2023 01:28:01
-// End: 20-06-2023 01:31:08
 // Duration: 0:03:07
+// End: 2023-06-20 01:31:08
 // Rating: 800
-
 #include <bits/stdc++.h>
 using namespace std;
 

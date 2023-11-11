@@ -1,8 +1,7 @@
-// Problem: C. Given Length and Sum of Digits...
-// Contest: Codeforces Round 277.5 (Div. 2)
-// URL: https://codeforces.com/contest/489/problem/C
+// Duration: None
+// End: 2023-06-14 11:27:48
 // Rating: 1400
-
+// URL: https://codeforces.com/problemset/problem/489/C
 #include <bits/stdc++.h>
 using namespace std;
 

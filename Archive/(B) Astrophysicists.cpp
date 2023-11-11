@@ -1,13 +1,12 @@
 // Problem: B. Astrophysicists
 // Contest: Codeforces - Codeforces Round 880 (Div. 2)
-// URL: https://codeforces.com/contest/1836/problem/B
+// URL: https://codeforces.com/problemset/problem/1836/B
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
 // Start: 18-06-2023 08:37:50
-// End: 18-06-2023 10:00:14
 // Duration: 1:22:24
+// End: 2023-06-18 10:00:14
 // Rating: 1100
-
 #include <bits/stdc++.h>
 using namespace std;
 
