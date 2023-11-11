@@ -8,7 +8,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using uint = unsigned int;
+using ll  = long long;
+using ull = unsigned long long;
 
 #define gcd(x, y) __gcd(x, y)
 #define mcm(x, y) abs((x) * (y)) / gcd(x, y)
