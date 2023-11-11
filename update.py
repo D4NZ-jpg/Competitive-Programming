@@ -1,142 +1,76 @@
-import re, requests, json, subprocess, re, os
-from bs4 import BeautifulSoup as bs
-from datetime import datetime
+from Scraper import Codeforces
 from dotenv import dotenv_values
-
-def getSubmission(contest, id) -> str:
-    res = requests.get(f"https://codeforces.com/contest/{contest}/submission/{id}").content
-    page = bs(res, "html.parser")
-
-    return page.find(id="program-source-text").text
-
-def formatCode(code) -> str:
-    p = subprocess.Popen(
-        "clang-format -style=file",
-        stdout=subprocess.PIPE,
-        stdin=subprocess.PIPE,
-        shell=True,
-    )
-    formatted, _ = p.communicate(input=code.encode())
-    return formatted.decode().replace("\r\n", "\n")
+from time import sleep
+import json, os, re
 
 
-def addHeaders(code, data, submission) -> str:
-    # if already includes headers, add them
-    headers = {
-        i.split(":")[0].replace("// ", ""): ":".join(i.split(":")[1:])
-        for i in re.findall(r"(?=//)(.*?)(?=\r\n)", code)
-    }
+def sanitizeFilename(filename):
+    forbidden_chars = r'[\\/:*?"<>|\r\n]+'
+    sanitized = re.sub(forbidden_chars, '', filename)
+    return sanitized
 
-    if not "Problem" in headers:
-        headers["Problem"] = (
-            submission["problem"]["index"] + ". " + submission["problem"]["name"]
-        )
+class FileManager:
+    def __init__(self, lockFilePath):
+        self.lockFilePath = lockFilePath
+        self.lockData = self.loadLockData()
 
-    if not "Contest" in headers:
-        headers["Contest"] = data["contestName"]
+    def loadLockData(self):
+        if not os.path.exists(self.lockFilePath):
+            with open(self.lockFilePath, 'w') as lockFile:
+                json.dump({}, lockFile)
 
-    if not "URL" in headers:
-        headers["URL"] = (
-            "https://codeforces.com/contest/"
-            + str(submission["problem"]["contestId"])
-            + "/problem/"
-            + str(submission["problem"]["index"])
-        )
+        with open(self.lockFilePath, 'r') as lockFile:
+            return json.load(lockFile)
 
-    if "Start" in headers:
-        format = "%d-%m-%Y %H:%M:%S"
-        start = datetime.strptime(headers["Start"].strip(), format)
-        headers["End"] = datetime.fromtimestamp(
-            submission["creationTimeSeconds"]
-        ).strftime(format)
-        headers["Duration"] = (
-            datetime.fromtimestamp(submission["creationTimeSeconds"]) - start
-        )
+    def writeFile(self, submission):
+        code = submission.getCode()
+        filePath = f"./Archive/({submission.problem.index}) {sanitizeFilename(submission.problem.name)}.cpp"
+        with open(filePath, 'w') as file:
+            file.write(code)
 
-    if headers["Problem"].strip() == "A. Jamie and Alarm Snooze":
-        pass
+        self.updateLockFile(submission)
 
-    try:
-        headers["Rating"] = submission["problem"]["rating"]
-    except:
-        pass
+    def updateLockFile(self, submission):
+        submissionId = str(submission.id)
 
-    code = code.replace(re.findall(r"^[\s\S]*(?=#include)", code)[0], "")
+        durationInSeconds = None
+        if submission.duration:
+            durationInSeconds = submission.duration.total_seconds()
 
-    code = (
-        "\n".join(
-            [
-                f"// {key}: {str(value).strip()}"
-                for key, value in headers.items()
-                if key
-                in [
-                    "Problem",
-                    "Contest",
-                    "URL",
-                    "Memory Limit",
-                    "Time Limit",
-                    "Start",
-                    "End",
-                    "Duration",
-                    "Rating",
-                ]
-            ]
-        )
-        + "\n\n"
-        + code
-    )
-    return code
+        submitTimeEpoch = int(submission.submitTime.timestamp())
+        rating = submission.problem.rating
 
+        self.lockData[submissionId] = {
+            'duration': durationInSeconds,
+            'submitTime': submitTimeEpoch,
+            'rating': rating
+        }
 
-if __name__ == "__main__":
-    user = dotenv_values(".env")["USER"]
+        with open(self.lockFilePath, 'w') as lockFile:
+            json.dump(self.lockData, lockFile, indent=4)
 
-    # Get all submissions with an OK verdict
-    submissions = [
-        s
-        for s in json.loads(
-            requests.get(
-                f"https://codeforces.com/api/user.status?handle={user}"
-            ).text
-        )["result"]
-        if s["verdict"] == "OK"
-    ]
+# Download everything
+handle = dotenv_values(".env")["HANDLE"]
+fm = FileManager("./lock.json")
+cf = Codeforces(handle)
 
-    lock = []
+# For things like gym submissions
+contestExclude = [102951]
 
-    if os.path.isfile('lock.json'):
-        with open('lock.json', 'r') as f:
-            lock = json.load(f)
+submissions = cf.getSubmissionList()
+submissions = [sub for sub in submissions if (not str(sub.id) in fm.lockData or fm.lockData[str(sub.id)]["rating"] is None) and not sub.contestId in contestExclude]
+for i, sub in enumerate(submissions): 
+    print(f"{i}/{len(submissions)}")
+    sub.getCode()
 
-    # format code
-    for submission in submissions:
-        if(submission["id"] in lock):
-            continue
+    sub.extractMetadata()
+    sub.writeHeaders()
 
-        data = {}
-        data["source"] = getSubmission(submission["contestId"], submission["id"])
-        data["problemName"] = f"({submission['problem']['index']}) {submission['problem']['name']}"
-        data["contestName"] = json.loads(
-            requests.get(
-                f"https://codeforces.com/api/contest.standings?contestId={submission['problem']['contestId']}"
-            ).text
-        )["result"]["contest"]["name"]
-
-        # remove any invalide characters from problem name
-        for char in data["problemName"]:
-            if char in '<>:"/\|?*':
-                data["problemName"] = data["problemName"].replace(char, "")
-
-        with open("./Archive/" + data["problemName"] + ".cpp", "w") as f:
-            # Prepare headers with problem info
-            data["source"] = addHeaders(data["source"], data, submission)
-
-            # Format code and write to file
-            f.write(formatCode(data["source"]))
-
-            # Add id to lock
-            lock.append(submission["id"])
-
+    fm.writeFile(sub)
     
-    with open('lock.json', 'w') as f:
-        f.write(json.dumps(lock))
+    # Prevent getting call limit
+    sleep(2)
+
+print(f"{len(submissions)}/{len(submissions)}")
+
+# Update graphs
