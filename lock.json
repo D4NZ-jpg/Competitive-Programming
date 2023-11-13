@@ -2,761 +2,1503 @@
     "232309243": {
         "duration": 159.0,
         "submitTime": 1699664143,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "math",
+            "number theory"
+        ]
     },
     "232166409": {
         "duration": 3030.0,
         "submitTime": 1699579121,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "binary search",
+            "combinatorics",
+            "sortings"
+        ]
     },
     "231869340": {
         "duration": null,
         "submitTime": 1699403886,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "binary search",
+            "math"
+        ]
     },
     "231866738": {
         "duration": 10466.0,
         "submitTime": 1699399481,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "binary search",
+            "data structures",
+            "implementation"
+        ]
     },
     "231655574": {
         "duration": 2007.0,
         "submitTime": 1699320853,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "dp"
+        ]
     },
     "231652821": {
         "duration": 8621.0,
         "submitTime": 1699317322,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "brute force",
+            "greedy",
+            "math",
+            "number theory"
+        ]
     },
     "231522581": {
         "duration": 1114.0,
         "submitTime": 1699226862,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "binary search",
+            "sortings"
+        ]
     },
     "231222138": {
         "duration": 180755.0,
         "submitTime": 1699035131,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "brute force",
+            "dp",
+            "greedy",
+            "math",
+            "number theory"
+        ]
     },
     "230620335": {
         "duration": 3234.0,
         "submitTime": 1698720317,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "brute force",
+            "greedy"
+        ]
     },
     "230616958": {
         "duration": 663.0,
         "submitTime": 1698716891,
-        "rating": 1300
+        "rating": 1300,
+        "tags": [
+            "bitmasks",
+            "brute force",
+            "constructive algorithms",
+            "greedy"
+        ]
     },
     "230613927": {
         "duration": 1004.0,
         "submitTime": 1698713213,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "dfs and similar",
+            "dp",
+            "graphs",
+            "sortings"
+        ]
     },
     "230612919": {
         "duration": null,
         "submitTime": 1698711943,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "binary search",
+            "brute force",
+            "data structures",
+            "dp"
+        ]
     },
     "230602644": {
         "duration": null,
         "submitTime": 1698698776,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "230592229": {
         "duration": 2322.0,
         "submitTime": 1698691860,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "brute force",
+            "dp",
+            "sortings"
+        ]
     },
     "230306180": {
         "duration": 3475.0,
         "submitTime": 1698550931,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "binary search",
+            "dp",
+            "math",
+            "number theory"
+        ]
     },
     "230296079": {
         "duration": 17400.0,
         "submitTime": 1698536381,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "binary search",
+            "data structures",
+            "greedy"
+        ]
     },
     "230275646": {
         "duration": 1126.0,
         "submitTime": 1698518299,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "combinatorics",
+            "data structures",
+            "geometry",
+            "implementation",
+            "math",
+            "sortings"
+        ]
     },
     "229941858": {
         "duration": 3339.0,
         "submitTime": 1698366175,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "data structures",
+            "greedy",
+            "implementation"
+        ]
     },
     "229938405": {
         "duration": 1038.0,
         "submitTime": 1698360298,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "brute force",
+            "constructive algorithms",
+            "greedy",
+            "implementation"
+        ]
     },
     "229936824": {
         "duration": 10822.0,
         "submitTime": 1698358039,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "binary search",
+            "data structures",
+            "math"
+        ]
     },
     "229765524": {
         "duration": 784.0,
         "submitTime": 1698283739,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "strings"
+        ]
     },
     "229764754": {
         "duration": 487.0,
         "submitTime": 1698282807,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "math"
+        ]
     },
     "229636284": {
         "duration": 3622.0,
         "submitTime": 1698202521,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "math",
+            "sortings"
+        ]
     },
     "229497445": {
         "duration": 2884.0,
         "submitTime": 1698109635,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "dp"
+        ]
     },
     "229495613": {
         "duration": 1978.0,
         "submitTime": 1698106475,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "sortings"
+        ]
     },
     "229292560": {
         "duration": 61916.0,
         "submitTime": 1697982498,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "data structures",
+            "dfs and similar",
+            "implementation",
+            "strings",
+            "trees"
+        ]
     },
     "228993871": {
         "duration": 5311.0,
         "submitTime": 1697847293,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "constructive algorithms",
+            "data structures",
+            "greedy"
+        ]
     },
     "228735171": {
         "duration": 3277.0,
         "submitTime": 1697675399,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "binary search",
+            "bitmasks",
+            "data structures",
+            "dp"
+        ]
     },
     "228615416": {
         "duration": 4474.0,
         "submitTime": 1697593277,
-        "rating": 1500
+        "rating": 1500,
+        "tags": [
+            "constructive algorithms",
+            "greedy"
+        ]
     },
     "228612320": {
         "duration": 6744.0,
         "submitTime": 1697588650,
-        "rating": 1300
+        "rating": 1300,
+        "tags": [
+            "combinatorics",
+            "dp",
+            "greedy"
+        ]
     },
     "226080684": {
         "duration": 112.0,
         "submitTime": 1696105221,
-        "rating": 1300
+        "rating": 1300,
+        "tags": [
+            "brute force"
+        ]
     },
     "225975018": {
         "duration": 2263.0,
         "submitTime": 1696087126,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "brute force",
+            "greedy",
+            "implementation"
+        ]
     },
     "225923942": {
         "duration": 328.0,
         "submitTime": 1696084840,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "brute force",
+            "greedy"
+        ]
     },
     "225017130": {
         "duration": 7754.0,
         "submitTime": 1695607294,
-        "rating": 1800
+        "rating": 1800,
+        "tags": [
+            "bitmasks",
+            "constructive algorithms",
+            "interactive",
+            "math"
+        ]
     },
     "224812786": {
         "duration": 492.0,
         "submitTime": 1695513776,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "dfs and similar",
+            "graphs"
+        ]
     },
     "224791649": {
         "duration": 6400.0,
         "submitTime": 1695492751,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "greedy",
+            "math",
+            "sortings"
+        ]
     },
     "224540033": {
         "duration": 1850.0,
         "submitTime": 1695340887,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "two pointers"
+        ]
     },
     "224538958": {
         "duration": 1492.0,
         "submitTime": 1695338989,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
     },
     "224538050": {
         "duration": 250.0,
         "submitTime": 1695337480,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "greedy",
+            "math"
+        ]
     },
     "224537859": {
         "duration": 1187.0,
         "submitTime": 1695337125,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ]
     },
     "224537312": {
         "duration": 295.0,
         "submitTime": 1695336233,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ]
     },
     "224233609": {
         "duration": 3191.0,
         "submitTime": 1695258688,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "sortings"
+        ]
     },
     "224228825": {
         "duration": null,
         "submitTime": 1695252075,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "strings"
+        ]
     },
     "224228794": {
         "duration": null,
         "submitTime": 1695252027,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "math"
+        ]
     },
     "224228617": {
         "duration": null,
         "submitTime": 1695251750,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "greedy",
+            "implementation",
+            "math"
+        ]
     },
     "224228603": {
         "duration": null,
         "submitTime": 1695251735,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "sortings"
+        ]
     },
     "224228594": {
         "duration": null,
         "submitTime": 1695251719,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     },
     "224228273": {
         "duration": 7979432.0,
         "submitTime": 1695251180,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "combinatorics",
+            "dfs and similar",
+            "dp",
+            "math",
+            "trees"
+        ]
     },
     "224228239": {
         "duration": 896338.0,
         "submitTime": 1695251122,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "geometry",
+            "math",
+            "shortest paths",
+            "sortings"
+        ]
     },
     "222760629": {
         "duration": 3319.0,
         "submitTime": 1694358103,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "geometry",
+            "math",
+            "shortest paths",
+            "sortings"
+        ]
     },
     "222741478": {
         "duration": 1425.0,
         "submitTime": 1694356209,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "constructive algorithms"
+        ]
     },
     "222721841": {
         "duration": 411.0,
         "submitTime": 1694352687,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "greedy",
+            "math"
+        ]
     },
     "214980285": {
         "duration": null,
         "submitTime": 1689994395,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "bitmasks",
+            "greedy",
+            "math"
+        ]
     },
     "214976475": {
         "duration": 973.0,
         "submitTime": 1689991320,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "games",
+            "math"
+        ]
     },
     "212512348": {
         "duration": 5118.0,
         "submitTime": 1688711568,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "combinatorics",
+            "dfs and similar",
+            "dp",
+            "math",
+            "trees"
+        ]
     },
     "212500664": {
         "duration": 566.0,
         "submitTime": 1688703249,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "210623310": {
         "duration": 143787.0,
         "submitTime": 1687415535,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "binary search",
+            "brute force",
+            "data structures",
+            "two pointers"
+        ]
     },
     "210621268": {
         "duration": 141945.0,
         "submitTime": 1687413693,
-        "rating": 1600
+        "rating": 1600,
+        "tags": [
+            "binary search",
+            "brute force",
+            "data structures",
+            "two pointers"
+        ]
     },
     "210484273": {
         "duration": 1063.0,
         "submitTime": 1687295181,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "implementation"
+        ]
     },
     "210483070": {
         "duration": 266.0,
         "submitTime": 1687293923,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "210445925": {
         "duration": 6338.0,
         "submitTime": 1687278086,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "combinatorics",
+            "dfs and similar",
+            "dp",
+            "math",
+            "trees"
+        ]
     },
     "210397105": {
         "duration": 1793.0,
         "submitTime": 1687273538,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "bitmasks",
+            "combinatorics",
+            "math",
+            "trees"
+        ]
     },
     "210390856": {
         "duration": 1444.0,
         "submitTime": 1687273188,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math",
+            "two pointers"
+        ]
     },
     "210385488": {
         "duration": 1189.0,
         "submitTime": 1687272930,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "sortings",
+            "two pointers"
+        ]
     },
     "210315832": {
         "duration": 187.0,
         "submitTime": 1687246268,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings",
+            "two pointers"
+        ]
     },
     "210314817": {
         "duration": 4414.0,
         "submitTime": 1687245435,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "games",
+            "greedy",
+            "math",
+            "strings"
+        ]
     },
     "210304280": {
         "duration": 1965.0,
         "submitTime": 1687234715,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "210302686": {
         "duration": 969.0,
         "submitTime": 1687232623,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "210298530": {
         "duration": 83747.0,
         "submitTime": 1687226516,
-        "rating": 1700
+        "rating": 1700,
+        "tags": [
+            "brute force",
+            "greedy",
+            "implementation",
+            "math"
+        ]
     },
     "210152614": {
         "duration": 4944.0,
         "submitTime": 1687104014,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "210117976": {
         "duration": 483.0,
         "submitTime": 1687099549,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "sortings"
+        ]
     },
     "210008522": {
         "duration": null,
         "submitTime": 1687048252,
-        "rating": 1800
+        "rating": 1800,
+        "tags": [
+            "brute force",
+            "dp",
+            "greedy",
+            "math",
+            "strings"
+        ]
     },
     "210004780": {
         "duration": null,
         "submitTime": 1687039241,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation"
+        ]
     },
     "210002975": {
         "duration": null,
         "submitTime": 1687036262,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "games"
+        ]
     },
     "210002417": {
         "duration": null,
         "submitTime": 1687035269,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "games"
+        ]
     },
     "209696263": {
         "duration": 1244.0,
         "submitTime": 1686767521,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "brute force",
+            "implementation",
+            "two pointers"
+        ]
+    },
+    "232578202": {
+        "duration": 6700.0,
+        "submitTime": 1699852855,
+        "rating": 1600,
+        "tags": [
+            "data structures",
+            "greedy"
+        ]
+    },
+    "232571475": {
+        "duration": 334.0,
+        "submitTime": 1699845790,
+        "rating": 1500,
+        "tags": [
+            "dp"
+        ]
+    },
+    "232564701": {
+        "duration": 1904.0,
+        "submitTime": 1699833774,
+        "rating": 1500,
+        "tags": [
+            "data structures",
+            "greedy"
+        ]
+    },
+    "232563841": {
+        "duration": 12304.0,
+        "submitTime": 1699831751,
+        "rating": 1600,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
+    },
+    "232553120": {
+        "duration": 6604.0,
+        "submitTime": 1699818378,
+        "rating": 1500,
+        "tags": [
+            "binary search",
+            "constructive algorithms",
+            "greedy",
+            "sortings",
+            "two pointers"
+        ]
     },
     "209694438": {
         "duration": 2343.0,
         "submitTime": 1686766147,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "dfs and similar",
+            "graphs",
+            "greedy",
+            "implementation",
+            "math",
+            "shortest paths"
+        ]
     },
     "209691161": {
         "duration": null,
         "submitTime": 1686763668,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "dp",
+            "greedy",
+            "implementation"
+        ]
     },
     "209626283": {
         "duration": 3378.0,
         "submitTime": 1686718130,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "binary search",
+            "implementation",
+            "math",
+            "sortings"
+        ]
     },
     "209623196": {
         "duration": 1850.0,
         "submitTime": 1686714253,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "binary search",
+            "math"
+        ]
     },
     "199266737": {
         "duration": 978.0,
         "submitTime": 1679842957,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "data structures",
+            "greedy",
+            "implementation"
+        ]
     },
     "199256829": {
         "duration": 631.0,
         "submitTime": 1679841955,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings"
+        ]
     },
     "198029052": {
         "duration": 326.0,
         "submitTime": 1679184260,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "sortings"
+        ]
     },
     "198028737": {
         "duration": 1293.0,
         "submitTime": 1679183671,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "geometry",
+            "implementation",
+            "math"
+        ]
     },
     "198027987": {
         "duration": 1021.0,
         "submitTime": 1679182230,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "brute force",
+            "dp"
+        ]
     },
     "198023474": {
         "duration": 841.0,
         "submitTime": 1679175943,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "number theory"
+        ]
     },
     "198022459": {
         "duration": 314.0,
         "submitTime": 1679174933,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "greedy",
+            "sortings"
+        ]
     },
     "198022022": {
         "duration": 1813.0,
         "submitTime": 1679174489,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "math"
+        ]
     },
     "198020046": {
         "duration": 520.0,
         "submitTime": 1679172633,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "192221647": {
         "duration": 1100.0,
         "submitTime": 1675563011,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "implementation"
+        ]
     },
     "192220822": {
         "duration": 366.0,
         "submitTime": 1675561728,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "sortings"
+        ]
     },
     "190836610": {
         "duration": 2073.0,
         "submitTime": 1674833921,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "implementation",
+            "math"
+        ]
     },
     "190806545": {
         "duration": 819.0,
         "submitTime": 1674831758,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "greedy",
+            "math"
+        ]
     },
     "190790433": {
         "duration": 729.0,
         "submitTime": 1674830921,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math",
+            "strings"
+        ]
     },
     "188147595": {
         "duration": 3281.0,
         "submitTime": 1672955548,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "greedy"
+        ]
     },
     "188145156": {
         "duration": 2403.0,
         "submitTime": 1672952038,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "dp",
+            "implementation",
+            "two pointers"
+        ]
     },
     "188139453": {
         "duration": 4980.0,
         "submitTime": 1672946526,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "187197275": {
         "duration": 87.0,
         "submitTime": 1672366171,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation",
+            "math"
+        ]
     },
     "187193209": {
         "duration": 128.0,
         "submitTime": 1672357110,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "greedy"
+        ]
     },
     "186898885": {
         "duration": null,
         "submitTime": 1672152734,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "186838909": {
         "duration": null,
         "submitTime": 1672121572,
-        "rating": 1200
+        "rating": 1200,
+        "tags": [
+            "games"
+        ]
     },
     "186837374": {
         "duration": 2159.0,
         "submitTime": 1672120312,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "constructive algorithms"
+        ]
     },
     "186739591": {
         "duration": null,
         "submitTime": 1672042635,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "graph matchings",
+            "implementation",
+            "shortest paths"
+        ]
     },
     "186507386": {
         "duration": 215.0,
         "submitTime": 1671824713,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     },
     "186053976": {
         "duration": null,
         "submitTime": 1671503668,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "brute force",
+            "implementation",
+            "strings"
+        ]
     },
     "186053463": {
         "duration": null,
         "submitTime": 1671502774,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     },
     "186051410": {
         "duration": null,
         "submitTime": 1671499329,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
     },
     "186050877": {
         "duration": null,
         "submitTime": 1671498427,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "implementation",
+            "math"
+        ]
     },
     "186049434": {
         "duration": null,
         "submitTime": 1671495504,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "two pointers"
+        ]
     },
     "186049028": {
         "duration": null,
         "submitTime": 1671494463,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation"
+        ]
     },
     "186048874": {
         "duration": null,
         "submitTime": 1671494056,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
     },
     "186048639": {
         "duration": null,
         "submitTime": 1671493422,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "186047961": {
         "duration": null,
         "submitTime": 1671492006,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "186047822": {
         "duration": null,
         "submitTime": 1671491655,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "brute force",
+            "implementation",
+            "math"
+        ]
     },
     "186047121": {
         "duration": null,
         "submitTime": 1671490142,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "186046527": {
         "duration": null,
         "submitTime": 1671488946,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "math",
+            "probabilities"
+        ]
     },
     "186046313": {
         "duration": null,
         "submitTime": 1671488596,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
     },
     "186044514": {
         "duration": null,
         "submitTime": 1671485739,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     },
     "185979215": {
         "duration": null,
         "submitTime": 1671462873,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "bitmasks",
+            "constructive algorithms",
+            "greedy",
+            "math"
+        ]
     },
     "185874830": {
         "duration": null,
         "submitTime": 1671382304,
-        "rating": 1400
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "math"
+        ]
     },
     "185849329": {
         "duration": null,
         "submitTime": 1671378192,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math"
+        ]
     },
     "185834220": {
         "duration": null,
         "submitTime": 1671376272,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ]
     },
     "185806917": {
         "duration": null,
         "submitTime": 1671374350,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     },
     "185697891": {
         "duration": null,
         "submitTime": 1671294730,
-        "rating": 1300
+        "rating": 1300,
+        "tags": [
+            "constructive algorithms",
+            "dp",
+            "greedy"
+        ]
     },
     "185647592": {
         "duration": null,
         "submitTime": 1671288520,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "math"
+        ]
     },
     "185524817": {
         "duration": null,
         "submitTime": 1671207136,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "data structures",
+            "greedy",
+            "sortings"
+        ]
     },
     "185518927": {
         "duration": null,
         "submitTime": 1671206165,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     },
     "185367474": {
         "duration": null,
         "submitTime": 1671123544,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math",
+            "number theory"
+        ]
     },
     "184929967": {
         "duration": null,
         "submitTime": 1670857457,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation"
+        ]
     },
     "184913212": {
         "duration": null,
         "submitTime": 1670856210,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ]
     },
     "184773992": {
         "duration": null,
         "submitTime": 1670776986,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "combinatorics",
+            "math",
+            "sortings"
+        ]
     },
     "182526065": {
         "duration": null,
         "submitTime": 1669395446,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "constructive algorithms"
+        ]
     },
     "182485402": {
         "duration": null,
         "submitTime": 1669390799,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "strings"
+        ]
     },
     "181977263": {
         "duration": null,
         "submitTime": 1669044999,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "two pointers"
+        ]
     },
     "181934724": {
         "duration": null,
         "submitTime": 1669042521,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "data structures",
+            "implementation",
+            "sortings"
+        ]
     },
     "181913949": {
         "duration": null,
         "submitTime": 1669041780,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "strings"
+        ]
     },
     "181905535": {
         "duration": null,
         "submitTime": 1669041587,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "sortings"
+        ]
     },
     "179211770": {
         "duration": null,
         "submitTime": 1667573158,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "greedy"
+        ]
     },
     "172595630": {
         "duration": null,
         "submitTime": 1663527407,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "strings"
+        ]
     },
     "156247131": {
         "duration": null,
         "submitTime": 1651979763,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
     },
     "156145499": {
         "duration": null,
         "submitTime": 1651879565,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "binary search",
+            "dp",
+            "implementation"
+        ]
     },
     "156030994": {
         "duration": null,
         "submitTime": 1651796781,
-        "rating": 1100
+        "rating": 1100,
+        "tags": [
+            "*special",
+            "greedy",
+            "implementation"
+        ]
     },
     "155886527": {
         "duration": null,
         "submitTime": 1651720698,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "greedy",
+            "strings"
+        ]
     },
     "155803298": {
         "duration": null,
         "submitTime": 1651625560,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "math"
+        ]
     },
     "155801594": {
         "duration": null,
         "submitTime": 1651621306,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "155801248": {
         "duration": null,
         "submitTime": 1651620406,
-        "rating": 1000
+        "rating": 1000,
+        "tags": [
+            "math"
+        ]
     },
     "155720294": {
         "duration": null,
         "submitTime": 1651550882,
-        "rating": 900
+        "rating": 900,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     },
     "155719494": {
         "duration": null,
         "submitTime": 1651549915,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "strings"
+        ]
     },
     "155719132": {
         "duration": null,
         "submitTime": 1651549491,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "math"
+        ]
     },
     "155717318": {
         "duration": null,
         "submitTime": 1651547357,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "greedy",
+            "implementation",
+            "math"
+        ]
     },
     "155716508": {
         "duration": null,
         "submitTime": 1651546398,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "sortings"
+        ]
     },
     "155715681": {
         "duration": null,
         "submitTime": 1651545417,
-        "rating": 800
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     }
 }
