@@ -43,7 +43,8 @@ class FileManager:
         self.lockData[submissionId] = {
             'duration': durationInSeconds,
             'submitTime': submitTimeEpoch,
-            'rating': rating
+            'rating': rating,
+            'tags': submission.problem.tags
         }
 
         with open(self.lockFilePath, 'w') as lockFile:
