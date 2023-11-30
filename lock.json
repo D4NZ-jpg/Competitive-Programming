@@ -1691,7 +1691,7 @@
     "234452375": {
         "duration": 784.0,
         "submitTime": 1701011481,
-        "rating": null,
+        "rating": 1300,
         "tags": [
             "dfs and similar",
             "dp",
@@ -1702,7 +1702,7 @@
     "234439349": {
         "duration": 686.0,
         "submitTime": 1701010330,
-        "rating": null,
+        "rating": 900,
         "tags": [
             "dp",
             "math"
@@ -1711,12 +1711,37 @@
     "234429290": {
         "duration": 233.0,
         "submitTime": 1701009547,
-        "rating": null,
+        "rating": 800,
         "tags": [
             "constructive algorithms",
             "greedy",
             "implementation",
             "strings"
+        ]
+    },
+    "235124412": {
+        "duration": 4220.0,
+        "submitTime": 1701368840,
+        "rating": null,
+        "tags": [
+            "constructive algorithms",
+            "greedy"
+        ]
+    },
+    "235100574": {
+        "duration": 1683.0,
+        "submitTime": 1701364256,
+        "rating": null,
+        "tags": [
+            "bitmasks"
+        ]
+    },
+    "235085723": {
+        "duration": 120.0,
+        "submitTime": 1701362438,
+        "rating": null,
+        "tags": [
+            "greedy"
         ]
     }
 }
