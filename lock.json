@@ -1722,26 +1722,91 @@
     "235124412": {
         "duration": 4220.0,
         "submitTime": 1701368840,
-        "rating": null,
+        "rating": 1400,
         "tags": [
             "constructive algorithms",
-            "greedy"
+            "dp",
+            "fft",
+            "greedy",
+            "hashing"
         ]
     },
     "235100574": {
         "duration": 1683.0,
         "submitTime": 1701364256,
-        "rating": null,
+        "rating": 1200,
         "tags": [
-            "bitmasks"
+            "bitmasks",
+            "brute force",
+            "constructive algorithms",
+            "greedy"
         ]
     },
     "235085723": {
         "duration": 120.0,
         "submitTime": 1701362438,
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "greedy",
+            "sortings"
+        ]
+    },
+    "235590514": {
+        "duration": 2990.0,
+        "submitTime": 1701619685,
         "rating": null,
         "tags": [
-            "greedy"
+            "constructive algorithms"
+        ]
+    },
+    "235564738": {
+        "duration": 1963.0,
+        "submitTime": 1701616666,
+        "rating": null,
+        "tags": []
+    },
+    "235543930": {
+        "duration": 569.0,
+        "submitTime": 1701614687,
+        "rating": null,
+        "tags": []
+    },
+    "235463456": {
+        "duration": 364.0,
+        "submitTime": 1701577775,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "235463008": {
+        "duration": 776.0,
+        "submitTime": 1701577279,
+        "rating": 1100,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "235462281": {
+        "duration": 1016.0,
+        "submitTime": 1701576420,
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math"
+        ]
+    },
+    "235305654": {
+        "duration": 443.0,
+        "submitTime": 1701483474,
+        "rating": 1000,
+        "tags": [
+            "dp",
+            "math"
         ]
     }
 }

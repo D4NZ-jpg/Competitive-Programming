@@ -1,12 +1,12 @@
-// Problem: C. Theofanis' Nightmare
-// Contest: Codeforces - Codeforces Round 912 (Div. 2)
-// URL: https://codeforces.com/problemset/problem/1903/C
+// Problem: B. Chip and Ribbon
+// Contest: Codeforces - Educational Codeforces Round 158 (Rated for Div. 2)
+// URL: https://codeforces.com/problemset/problem/1901/B
 // Memory Limit: 256 MB
-// Time Limit: 1000 ms
-// Start: 30-11-2023 11:17:00
-// Duration: 1:10:20
-// End: 2023-11-30 12:27:20
-// Rating: 1400
+// Time Limit: 2000 ms
+// Start: 02-12-2023 22:08:23
+// Duration: 0:12:56
+// End: 2023-12-02 22:21:19
+// Rating: 1100
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +18,6 @@ using ull = unsigned long long;
 #define all(x)    begin(x), end(x)
 #define pb(x)     push_back(x)
 #define endl      '\n'
-
 int main() {
 #ifdef DEBUG
 	std::cout << std::unitbuf;
@@ -32,15 +31,16 @@ int main() {
 		ll n;
 		cin >> n;
 		vector<ll> v(n);
-		for (int i = n - 1; i >= 0; i--) cin >> v[i];
+		for (ll& i : v) cin >> i;
 
-		ll ans = 0, sum = 0;
-		for (int i = 0; i < n; i++) {
-			sum += v[i];
-			if (sum > 0) ans += sum;
+		ll curr = 1, ops = 0;
+
+		for (ll& i : v) {
+			ll d = i - curr;
+			ops += max(0ll, d);
+			curr += d;
 		}
-
-		if (sum < 0) ans += sum;
-		cout << ans << endl;
+		cout << ops << endl;
 	}
+	return 0;
 }
