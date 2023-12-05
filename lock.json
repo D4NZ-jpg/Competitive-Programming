@@ -1757,20 +1757,29 @@
         "submitTime": 1701619685,
         "rating": null,
         "tags": [
-            "constructive algorithms"
+            "brute force",
+            "constructive algorithms",
+            "greedy",
+            "math",
+            "number theory"
         ]
     },
     "235564738": {
         "duration": 1963.0,
         "submitTime": 1701616666,
         "rating": null,
-        "tags": []
+        "tags": [
+            "binary search",
+            "math"
+        ]
     },
     "235543930": {
         "duration": 569.0,
         "submitTime": 1701614687,
         "rating": null,
-        "tags": []
+        "tags": [
+            "constructive algorithms"
+        ]
     },
     "235463456": {
         "duration": 364.0,
@@ -1806,6 +1815,85 @@
         "rating": 1000,
         "tags": [
             "dp",
+            "math"
+        ]
+    },
+    "235784658": {
+        "duration": 7052.0,
+        "submitTime": 1701743056,
+        "rating": 1700,
+        "tags": [
+            "constructive algorithms"
+        ]
+    },
+    "235779823": {
+        "duration": 8808.0,
+        "submitTime": 1701734701,
+        "rating": 1700,
+        "tags": [
+            "binary search",
+            "dp",
+            "greedy",
+            "implementation",
+            "math"
+        ]
+    },
+    "235772926": {
+        "duration": 4983.0,
+        "submitTime": 1701724140,
+        "rating": 1700,
+        "tags": [
+            "binary search",
+            "bitmasks",
+            "brute force",
+            "greedy"
+        ]
+    },
+    "235654730": {
+        "duration": 236.0,
+        "submitTime": 1701663845,
+        "rating": 1100,
+        "tags": [
+            "brute force",
+            "greedy",
+            "math",
+            "number theory"
+        ]
+    },
+    "235878568": {
+        "duration": 661.0,
+        "submitTime": 1701788423,
+        "rating": null,
+        "tags": [
+            "data structures",
+            "implementation",
+            "strings"
+        ]
+    },
+    "235861969": {
+        "duration": 231.0,
+        "submitTime": 1701787741,
+        "rating": null,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "235857213": {
+        "duration": 653.0,
+        "submitTime": 1701786297,
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation",
+            "strings"
+        ]
+    },
+    "235855810": {
+        "duration": 262.0,
+        "submitTime": 1701785366,
+        "rating": 800,
+        "tags": [
+            "implementation",
             "math"
         ]
     }
