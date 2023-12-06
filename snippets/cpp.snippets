@@ -1,0 +1,116 @@
+### Competitive programming snippets
+
+## STL Collections
+# Vector
+snippet vec "Vector"
+	vector<${1:T}> $2($3);$0
+
+# Deque
+snippet deque
+	deque<${1:T}> ${2};$0
+
+# Set
+snippet set
+	set<${1:T}> ${2};${3}
+
+# Stack
+snippet stack
+	stack<${1:T}> ${2};${3}
+
+# Queue
+snippet queue
+	queue<${1:T}> ${2};${3}
+# Priority_queue
+snippet pqueue
+	priority_queue<${1:T}> ${2};${3}
+
+# Map
+snippet map
+	map<${1:Key}, ${2:T}> ${3};${4}
+
+# Multiset
+snippet mset
+	multiset<${1:T}> ${2};${3}
+
+# Multimap
+snippet mmap
+	multimap<${1:Key}, ${2:T}> ${3};${4}
+
+# Unordered_set
+snippet uset
+	unordered_set<${1:T}> ${2};${3}
+
+# Unordered_map
+snippet umap
+	unordered_map<${1:Key}, ${2:T}> ${3};${4}
+
+# Unordered_multiset
+snippet umset
+	unordered_multiset<${1:T}> ${2};${3}
+
+# Unordered_multimap
+snippet ummap
+	unordered_multimap<${1:Key}, ${2:T}> ${3};${4}
+
+## Iteration
+# For each
+snippet fore
+    for (${1:auto&} ${2:i}: ${3:v}){
+        $4
+    }
+    $0
+
+# For i
+snippet fori
+    for (int ${1:i} = ${2:0}; $1 ${3:<} ${4:n}; $1${5:++}){
+        $6
+    }
+    $0
+
+snippet foriel
+    for (int ${1:i} = 0; $1 < (int)$3.size(); $1++) {
+        auto& ${2:el} = ${3:v}[$1];
+        $4
+    }
+    $0
+
+## Lambda
+snippet ld
+	[&](${1}){
+		${2}
+	}${3}
+
+### Shortcuts
+# Testcases
+snippet tests "testcases input"
+    int tc; cin >> tc;
+    while(tc--)
+    {
+        $0
+    }
+
+# Read vector
+snippet cinvec "Read to a vector"
+    for (auto& ${1:i}: ${2:v}) cin >> $1${3};
+	$0
+
+# Read variables
+snippet cinval "Read variables"
+    ${1:string} ${2:var};
+    cin >> ${2/,/ >>/g};
+    $0
+
+# I/O file
+snippet fileIO "Read I/O from file"
+    freopen("$1.in", "r", stdin);
+    freopen("$1.out", "w", stdout);
+    $0
+
+# Local?
+snippet isLocal
+    #ifdef DEBUG
+        $1
+    #else
+        $2
+    #endif
+    $0
