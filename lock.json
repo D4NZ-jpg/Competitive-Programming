@@ -1755,7 +1755,7 @@
     "235590514": {
         "duration": 2990.0,
         "submitTime": 1701619685,
-        "rating": null,
+        "rating": 1300,
         "tags": [
             "brute force",
             "constructive algorithms",
@@ -1767,16 +1767,17 @@
     "235564738": {
         "duration": 1963.0,
         "submitTime": 1701616666,
-        "rating": null,
+        "rating": 1100,
         "tags": [
             "binary search",
-            "math"
+            "brute force",
+            "greedy"
         ]
     },
     "235543930": {
         "duration": 569.0,
         "submitTime": 1701614687,
-        "rating": null,
+        "rating": 800,
         "tags": [
             "constructive algorithms"
         ]
@@ -1863,7 +1864,7 @@
     "235878568": {
         "duration": 661.0,
         "submitTime": 1701788423,
-        "rating": null,
+        "rating": 1000,
         "tags": [
             "data structures",
             "implementation",
@@ -1873,7 +1874,7 @@
     "235861969": {
         "duration": 231.0,
         "submitTime": 1701787741,
-        "rating": null,
+        "rating": 800,
         "tags": [
             "implementation"
         ]
@@ -1895,6 +1896,62 @@
         "tags": [
             "implementation",
             "math"
+        ]
+    },
+    "236436334": {
+        "duration": 205.0,
+        "submitTime": 1702085835,
+        "rating": 800,
+        "tags": [
+            "sortings"
+        ]
+    },
+    "236261115": {
+        "duration": 406.0,
+        "submitTime": 1701978677,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math",
+            "sortings"
+        ]
+    },
+    "236135446": {
+        "duration": 975.0,
+        "submitTime": 1701919544,
+        "rating": 1000,
+        "tags": [
+            "brute force"
+        ]
+    },
+    "236122211": {
+        "duration": 270.0,
+        "submitTime": 1701898270,
+        "rating": 1600,
+        "tags": [
+            "brute force",
+            "combinatorics",
+            "number theory"
+        ]
+    },
+    "236109615": {
+        "duration": 1388.0,
+        "submitTime": 1701891101,
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "constructive algorithms"
+        ]
+    },
+    "236082795": {
+        "duration": 183.0,
+        "submitTime": 1701880518,
+        "rating": 1100,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math",
+            "strings"
         ]
     }
 }

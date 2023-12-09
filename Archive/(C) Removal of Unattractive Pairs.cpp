@@ -1,12 +1,12 @@
-// Problem: A. Binary Imbalance
-// Contest: Codeforces - Educational Codeforces Round 159 (Rated for Div. 2)
-// URL: https://codeforces.com/problemset/problem/1902/A
+// Problem: C. Removal of Unattractive Pairs
+// Contest: Codeforces - Codeforces Round 913 (Div. 3)
+// URL: https://codeforces.com/problemset/problem/1907/C
 // Memory Limit: 256 MB
-// Time Limit: 2000 ms
-// Start: 03-12-2023 08:35:18
-// Duration: 0:09:29
-// End: 2023-12-03 08:44:47
-// Rating: 800
+// Time Limit: 1000 ms
+// Start: 06-12-2023 10:32:15
+// Duration: 0:03:03
+// End: 2023-12-06 10:35:18
+// Rating: 1100
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -32,17 +32,15 @@ int main() {
 		ll     n;
 		cin >> n >> s;
 
-		ll z = 0, o = 0;
+		vector<ll> v(26);
+		for (char& c : s) v[c - 'a']++;
 
-		for (int idx = 0; idx < n; idx++) {
-			char i = s[idx];
-			if (i == '0') z++;
-			if (i == '1') o++;
-		}
+		ll maxE = 0;
+		for (ll& i : v) maxE = max(maxE, i);
 
-		if (z > o || (z > 0 && o > 0)) cout << "YES" << endl;
+		if (maxE > n / 2) cout << 2 * maxE - n << endl;
 		else
-			cout << "NO" << endl;
+			cout << n % 2 << endl;
 	}
 
 	return 0;
