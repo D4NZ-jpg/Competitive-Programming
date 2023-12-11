@@ -1953,5 +1953,87 @@
             "math",
             "strings"
         ]
+    },
+    "236692432": {
+        "duration": 2370.0,
+        "submitTime": 1702232156,
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "constructive algorithms",
+            "greedy",
+            "sortings"
+        ]
+    },
+    "236687991": {
+        "duration": 4511.0,
+        "submitTime": 1702229733,
+        "rating": 1700,
+        "tags": [
+            "binary search",
+            "data structures",
+            "divide and conquer",
+            "math",
+            "two pointers"
+        ]
+    },
+    "236675755": {
+        "duration": 610.0,
+        "submitTime": 1702223153,
+        "rating": 1700,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "236605112": {
+        "duration": 1121.0,
+        "submitTime": 1702176686,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation"
+        ]
+    },
+    "236604133": {
+        "duration": 483.0,
+        "submitTime": 1702175310,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms"
+        ]
+    },
+    "236571027": {
+        "duration": 2584.0,
+        "submitTime": 1702145027,
+        "rating": null,
+        "tags": [
+            "binary search",
+            "brute force",
+            "data structures",
+            "sortings",
+            "two pointers"
+        ]
+    },
+    "236554302": {
+        "duration": 291.0,
+        "submitTime": 1702142409,
+        "rating": null,
+        "tags": [
+            "binary search",
+            "dp",
+            "greedy",
+            "sortings",
+            "two pointers"
+        ]
+    },
+    "236533230": {
+        "duration": 1456.0,
+        "submitTime": 1702139369,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "implementation"
+        ]
     }
 }
