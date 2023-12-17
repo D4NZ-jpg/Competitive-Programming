@@ -6,6 +6,9 @@ The primary goal of this repository is to help me track my progress and gather
 statistics from my performance in competitive programming. While it is 
 initially set up for personal use, others are welcome to view it.
 
+## Some cool graphs
+![problems distribution](img/problems.png)
+
 ## Structure
 
 Here's a high-level view of the repository's organization:

@@ -2189,5 +2189,66 @@
             "math",
             "sortings"
         ]
+    },
+    "237627261": {
+        "duration": 43315.0,
+        "submitTime": 1702824462,
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "greedy"
+        ]
+    },
+    "237562453": {
+        "duration": 502.0,
+        "submitTime": 1702781092,
+        "rating": 1000,
+        "tags": [
+            "constructive algorithms",
+            "greedy"
+        ]
+    },
+    "237561865": {
+        "duration": 429.0,
+        "submitTime": 1702780223,
+        "rating": 900,
+        "tags": [
+            "greedy"
+        ]
+    },
+    "237561548": {
+        "duration": 229.0,
+        "submitTime": 1702779768,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "math"
+        ]
+    },
+    "237525134": {
+        "duration": 4077.0,
+        "submitTime": 1702744241,
+        "rating": null,
+        "tags": [
+            "greedy",
+            "strings"
+        ]
+    },
+    "237498994": {
+        "duration": 2536.0,
+        "submitTime": 1702740119,
+        "rating": null,
+        "tags": [
+            "greedy",
+            "trees"
+        ]
+    },
+    "237470393": {
+        "duration": 138.0,
+        "submitTime": 1702737455,
+        "rating": null,
+        "tags": [
+            "math"
+        ]
     }
 }

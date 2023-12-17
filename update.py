@@ -2,6 +2,7 @@ from Scraper import Codeforces
 from dotenv import dotenv_values
 from time import sleep
 import json, os, re
+from graph import updateAll
 
 
 def sanitizeFilename(filename):
@@ -75,3 +76,4 @@ for i, sub in enumerate(submissions):
 print(f"{len(submissions)}/{len(submissions)}")
 
 # Update graphs
+updateAll()
