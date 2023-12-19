@@ -2248,7 +2248,74 @@
         "submitTime": 1702737455,
         "rating": null,
         "tags": [
+            "constructive algorithms",
             "math"
+        ]
+    },
+    "238023148": {
+        "duration": 4310.0,
+        "submitTime": 1703002216,
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "math"
+        ]
+    },
+    "237863953": {
+        "duration": 1126.0,
+        "submitTime": 1702955532,
+        "rating": null,
+        "tags": [
+            "binary search",
+            "bitmasks",
+            "brute force",
+            "greedy"
+        ]
+    },
+    "237862975": {
+        "duration": 2881.0,
+        "submitTime": 1702954383,
+        "rating": null,
+        "tags": [
+            "strings"
+        ]
+    },
+    "237852753": {
+        "duration": 560.0,
+        "submitTime": 1702951474,
+        "rating": null,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "237835375": {
+        "duration": 731.0,
+        "submitTime": 1702927217,
+        "rating": 1400,
+        "tags": [
+            "data structures",
+            "dp",
+            "games",
+            "greedy"
+        ]
+    },
+    "237669128": {
+        "duration": 2462.0,
+        "submitTime": 1702858491,
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "greedy"
+        ]
+    },
+    "237665225": {
+        "duration": 4974.0,
+        "submitTime": 1702850615,
+        "rating": 1400,
+        "tags": [
+            "combinatorics",
+            "math",
+            "number theory"
         ]
     }
 }
