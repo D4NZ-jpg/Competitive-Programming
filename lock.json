@@ -2317,5 +2317,190 @@
             "math",
             "number theory"
         ]
+    },
+    "238168627": {
+        "duration": 1377.0,
+        "submitTime": 1703088126,
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "sortings"
+        ]
+    },
+    "238168248": {
+        "duration": 476.0,
+        "submitTime": 1703087942,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "238165783": {
+        "duration": 206.0,
+        "submitTime": 1703086721,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
+    },
+    "238080424": {
+        "duration": 706.0,
+        "submitTime": 1703028164,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "dp",
+            "greedy",
+            "implementation",
+            "sortings"
+        ]
+    },
+    "238080047": {
+        "duration": 1012.0,
+        "submitTime": 1703027388,
+        "rating": null,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "238079562": {
+        "duration": 279.0,
+        "submitTime": 1703026359,
+        "rating": null,
+        "tags": [
+            "constructive algorithms",
+            "math"
+        ]
+    },
+    "238079395": {
+        "duration": 757.0,
+        "submitTime": 1703026070,
+        "rating": null,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
+    },
+    "238194750": {
+        "duration": 681.0,
+        "submitTime": 1703106779,
+        "rating": 1600,
+        "tags": [
+            "binary search",
+            "brute force",
+            "data structures",
+            "hashing",
+            "strings"
+        ]
+    },
+    "238193975": {
+        "duration": 7867.0,
+        "submitTime": 1703105884,
+        "rating": null,
+        "tags": [
+            "games",
+            "greedy",
+            "sortings"
+        ]
+    },
+    "238193946": {
+        "duration": 7846.0,
+        "submitTime": 1703105863,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "games",
+            "greedy",
+            "sortings"
+        ]
+    },
+    "238305520": {
+        "duration": 327.0,
+        "submitTime": 1703186370,
+        "rating": 1400,
+        "tags": [
+            "bitmasks",
+            "brute force",
+            "dp",
+            "greedy"
+        ]
+    },
+    "238879053": {
+        "duration": 520.0,
+        "submitTime": 1703530219,
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "constructive algorithms",
+            "math"
+        ]
+    },
+    "238759931": {
+        "duration": 13861.0,
+        "submitTime": 1703448220,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "greedy",
+            "implementation",
+            "math"
+        ]
+    },
+    "238704565": {
+        "duration": 1540.0,
+        "submitTime": 1703430837,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "combinatorics",
+            "data structures",
+            "dp",
+            "strings"
+        ]
+    },
+    "238687552": {
+        "duration": 739.0,
+        "submitTime": 1703429253,
+        "rating": null,
+        "tags": [
+            "constructive algorithms",
+            "math"
+        ]
+    },
+    "238549309": {
+        "duration": 778.0,
+        "submitTime": 1703346292,
+        "rating": 1600,
+        "tags": [
+            "data structures",
+            "hashing",
+            "implementation"
+        ]
+    },
+    "238415101": {
+        "duration": 2651.0,
+        "submitTime": 1703271431,
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math",
+            "number theory",
+            "strings"
+        ]
+    },
+    "238409426": {
+        "duration": 1087.0,
+        "submitTime": 1703268686,
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "dp",
+            "greedy",
+            "strings"
+        ]
     }
 }
