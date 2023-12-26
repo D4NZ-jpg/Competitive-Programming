@@ -6,7 +6,7 @@
 // Start: 24-12-2023 10:12:39
 // Duration: 3:51:01
 // End: 2023-12-24 14:03:40
-// Rating: None
+// Rating: 1600
 #include <bits/stdc++.h>
 using namespace std;
 
