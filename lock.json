@@ -2645,5 +2645,50 @@
             "bitmasks",
             "implementation"
         ]
+    },
+    "240580664": {
+        "duration": 5687.0,
+        "submitTime": 1704558006,
+        "rating": null,
+        "tags": [
+            "data structures",
+            "dp",
+            "greedy"
+        ]
+    },
+    "240509981": {
+        "duration": 381.0,
+        "submitTime": 1704552286,
+        "rating": null,
+        "tags": [
+            "2-sat",
+            "greedy"
+        ]
+    },
+    "240497955": {
+        "duration": 177.0,
+        "submitTime": 1704551890,
+        "rating": null,
+        "tags": [
+            "games",
+            "math"
+        ]
+    },
+    "240425231": {
+        "duration": 1268.0,
+        "submitTime": 1704513196,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "sortings"
+        ]
+    },
+    "240294977": {
+        "duration": 17.0,
+        "submitTime": 1704423222,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
     }
 }
