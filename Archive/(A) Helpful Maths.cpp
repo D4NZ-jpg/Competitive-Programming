@@ -1,11 +1,11 @@
-// Problem: B. Plus-Minus Split
-// Contest: Codeforces - Hello 2024
-// URL: https://codeforces.com/problemset/problem/1919/B
+// Problem: A. Helpful Maths
+// Contest: Codeforces - Codeforces Round 197 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/339/A
 // Memory Limit: 256 MB
-// Time Limit: 1000 ms
-// Start: 06-01-2024 08:38:25
-// Duration: 0:06:21
-// End: 2024-01-06 08:44:46
+// Time Limit: 2000 ms
+// Start: 08-01-2024 10:01:51
+// Duration: 0:03:38
+// End: 2024-01-08 10:05:29
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,21 +28,17 @@ int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int tc;
-	cin >> tc;
-	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
+	string s;
+	cin >> s;
 
-		ll sum = 0;
-		for (char& c : s)
-			if (c == '+') sum++;
-			else
-				sum--;
-
-		cout << abs(sum) << endl;
+	vector<char> v;
+	for (char& c : s) {
+		if (c == '+') continue;
+		v.pb(c);
 	}
+	sort(all(v));
+	for (int i = 0; i < v.size() - 1; i++) cout << v[i] << '+';
+	cout << v[v.size() - 1];
 
 	return 0;
 }

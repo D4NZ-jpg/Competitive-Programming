@@ -2649,7 +2649,7 @@
     "240580664": {
         "duration": 5687.0,
         "submitTime": 1704558006,
-        "rating": null,
+        "rating": 1400,
         "tags": [
             "data structures",
             "dp",
@@ -2659,16 +2659,15 @@
     "240509981": {
         "duration": 381.0,
         "submitTime": 1704552286,
-        "rating": null,
+        "rating": 800,
         "tags": [
-            "2-sat",
             "greedy"
         ]
     },
     "240497955": {
         "duration": 177.0,
         "submitTime": 1704551890,
-        "rating": null,
+        "rating": 800,
         "tags": [
             "games",
             "math"
@@ -2689,6 +2688,92 @@
         "rating": 800,
         "tags": [
             "implementation"
+        ]
+    },
+    "241477004": {
+        "duration": 3300.0,
+        "submitTime": 1705162547,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "number theory"
+        ]
+    },
+    "241450335": {
+        "duration": 1962.0,
+        "submitTime": 1705159204,
+        "rating": null,
+        "tags": [
+            "dp",
+            "games",
+            "sortings"
+        ]
+    },
+    "241426328": {
+        "duration": 595.0,
+        "submitTime": 1705157216,
+        "rating": null,
+        "tags": [
+            "brute force",
+            "greedy",
+            "math",
+            "schedules"
+        ]
+    },
+    "241333308": {
+        "duration": 75.0,
+        "submitTime": 1705093422,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "241225001": {
+        "duration": 195.0,
+        "submitTime": 1705023502,
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation",
+            "strings"
+        ]
+    },
+    "241107349": {
+        "duration": 244.0,
+        "submitTime": 1704932452,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
+    },
+    "240946860": {
+        "duration": 780.0,
+        "submitTime": 1704811089,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "math",
+            "number theory"
+        ]
+    },
+    "240835840": {
+        "duration": 218.0,
+        "submitTime": 1704729929,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings",
+            "strings"
+        ]
+    },
+    "240745474": {
+        "duration": 71.0,
+        "submitTime": 1704660948,
+        "rating": 800,
+        "tags": [
+            "math"
         ]
     }
 }

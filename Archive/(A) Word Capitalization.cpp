@@ -1,11 +1,11 @@
-// Problem: B. Plus-Minus Split
-// Contest: Codeforces - Hello 2024
-// URL: https://codeforces.com/problemset/problem/1919/B
+// Problem: A. Word Capitalization
+// Contest: Codeforces - Codeforces Round 172 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/281/A
 // Memory Limit: 256 MB
-// Time Limit: 1000 ms
-// Start: 06-01-2024 08:38:25
-// Duration: 0:06:21
-// End: 2024-01-06 08:44:46
+// Time Limit: 2000 ms
+// Start: 10-01-2024 18:16:48
+// Duration: 0:04:04
+// End: 2024-01-10 18:20:52
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,21 +28,12 @@ int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int tc;
-	cin >> tc;
-	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
+	string s;
+	cin >> s;
 
-		ll sum = 0;
-		for (char& c : s)
-			if (c == '+') sum++;
-			else
-				sum--;
-
-		cout << abs(sum) << endl;
-	}
+	cout << ('a' <= s[0] && s[0] <= 'z' ? char(s[0] + 'A' - 'a')
+	                                    : s[0]);
+	for (int i = 1; i < s.size(); i++) cout << s[i];
 
 	return 0;
 }

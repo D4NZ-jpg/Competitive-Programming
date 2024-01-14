@@ -1,11 +1,11 @@
-// Problem: B. Plus-Minus Split
-// Contest: Codeforces - Hello 2024
-// URL: https://codeforces.com/problemset/problem/1919/B
+// Problem: A. Stones on the Table
+// Contest: Codeforces - Codeforces Round 163 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/266/A
 // Memory Limit: 256 MB
-// Time Limit: 1000 ms
-// Start: 06-01-2024 08:38:25
-// Duration: 0:06:21
-// End: 2024-01-06 08:44:46
+// Time Limit: 2000 ms
+// Start: 12-01-2024 15:02:27
+// Duration: 0:01:15
+// End: 2024-01-12 15:03:42
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,21 +28,14 @@ int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int tc;
-	cin >> tc;
-	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
+	ll n;
+	cin >> n;
+	string s;
+	cin >> s;
 
-		ll sum = 0;
-		for (char& c : s)
-			if (c == '+') sum++;
-			else
-				sum--;
-
-		cout << abs(sum) << endl;
-	}
+	ll ans = 0;
+	for (int i = 1; i < n; i++) ans += s[i - 1] == s[i];
+	cout << ans;
 
 	return 0;
 }

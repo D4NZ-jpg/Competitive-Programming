@@ -1,11 +1,11 @@
-// Problem: B. Plus-Minus Split
-// Contest: Codeforces - Hello 2024
-// URL: https://codeforces.com/problemset/problem/1919/B
+// Problem: A. Ambitious Kid
+// Contest: Codeforces - COMPFEST 15 - Preliminary Online Mirror (Unrated, ICPC Rules, Teams Preferred)
+// URL: https://codeforces.com/problemset/problem/1866/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 06-01-2024 08:38:25
-// Duration: 0:06:21
-// End: 2024-01-06 08:44:46
+// Start: 07-01-2024 14:54:37
+// Duration: 0:01:11
+// End: 2024-01-07 14:55:48
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,21 +28,17 @@ int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int tc;
-	cin >> tc;
-	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
+	ll n, ans = INT_MAX;
+	cin >> n;
 
-		ll sum = 0;
-		for (char& c : s)
-			if (c == '+') sum++;
-			else
-				sum--;
+	for (int i = 0; i < n; i++) {
+		ll j;
+		cin >> j;
 
-		cout << abs(sum) << endl;
+		ans = min(ans, abs(j));
 	}
+
+	cout << ans;
 
 	return 0;
 }
