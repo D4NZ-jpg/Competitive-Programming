@@ -62,7 +62,7 @@ fm = FileManager("./lock.json")
 cf = Codeforces(handle)
 
 # For things like gym submissions
-contestExclude = [102951]
+contestExclude = [102951, 104536]
 
 submissions = cf.getSubmissionList()
 submissions = [

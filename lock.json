@@ -2693,31 +2693,32 @@
     "241477004": {
         "duration": 3300.0,
         "submitTime": 1705162547,
-        "rating": null,
+        "rating": 1500,
         "tags": [
             "brute force",
+            "math",
             "number theory"
         ]
     },
     "241450335": {
         "duration": 1962.0,
         "submitTime": 1705159204,
-        "rating": null,
+        "rating": 1100,
         "tags": [
-            "dp",
             "games",
+            "greedy",
+            "math",
             "sortings"
         ]
     },
     "241426328": {
         "duration": 595.0,
         "submitTime": 1705157216,
-        "rating": null,
+        "rating": 800,
         "tags": [
             "brute force",
             "greedy",
-            "math",
-            "schedules"
+            "math"
         ]
     },
     "241333308": {
@@ -2774,6 +2775,57 @@
         "rating": 800,
         "tags": [
             "math"
+        ]
+    },
+    "242651353": {
+        "duration": 145.0,
+        "submitTime": 1705802803,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
+    },
+    "242497543": {
+        "duration": 238.0,
+        "submitTime": 1705718909,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "242367261": {
+        "duration": 367.0,
+        "submitTime": 1705634012,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
+    },
+    "242103743": {
+        "duration": 101.0,
+        "submitTime": 1705508498,
+        "rating": 1000,
+        "tags": [
+            "constructive algorithms",
+            "implementation"
+        ]
+    },
+    "242014423": {
+        "duration": 162.0,
+        "submitTime": 1705466422,
+        "rating": 800,
+        "tags": [
+            "math"
+        ]
+    },
+    "241631765": {
+        "duration": 146.0,
+        "submitTime": 1705287312,
+        "rating": 800,
+        "tags": [
+            "implementation"
         ]
     }
 }
