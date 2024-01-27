@@ -2827,5 +2827,84 @@
         "tags": [
             "implementation"
         ]
+    },
+    "243475615": {
+        "duration": 2271.0,
+        "submitTime": 1706323565,
+        "rating": 1100,
+        "tags": [
+            "data structures",
+            "greedy",
+            "sortings",
+            "two pointers"
+        ]
+    },
+    "243473851": {
+        "duration": 1212.0,
+        "submitTime": 1706321268,
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "243472711": {
+        "duration": 1253.0,
+        "submitTime": 1706320031,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation"
+        ]
+    },
+    "243472319": {
+        "duration": 1071.0,
+        "submitTime": 1706319487,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ]
+    },
+    "243290509": {
+        "duration": 94.0,
+        "submitTime": 1706198718,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "243174482": {
+        "duration": 334.0,
+        "submitTime": 1706118784,
+        "rating": 800,
+        "tags": [
+            "brute force"
+        ]
+    },
+    "243081414": {
+        "duration": 238.0,
+        "submitTime": 1706073555,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "242943042": {
+        "duration": 355.0,
+        "submitTime": 1705984099,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "242740490": {
+        "duration": 77.0,
+        "submitTime": 1705859644,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ]
     }
 }
