@@ -2906,5 +2906,341 @@
             "implementation",
             "strings"
         ]
+    },
+    "245544174": {
+        "duration": 587.0,
+        "submitTime": 1707450326,
+        "rating": 1300,
+        "tags": [
+            "greedy",
+            "implementation",
+            "math"
+        ]
+    },
+    "245540911": {
+        "duration": 1063.0,
+        "submitTime": 1707446067,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation",
+            "strings"
+        ]
+    },
+    "245538955": {
+        "duration": 734.0,
+        "submitTime": 1707442578,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation"
+        ]
+    },
+    "245412727": {
+        "duration": 113.0,
+        "submitTime": 1707364717,
+        "rating": 800,
+        "tags": [
+            "math"
+        ]
+    },
+    "245283562": {
+        "duration": 120.0,
+        "submitTime": 1707277042,
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings"
+        ]
+    },
+    "245019150": {
+        "duration": 1102.0,
+        "submitTime": 1707194173,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation",
+            "strings"
+        ]
+    },
+    "244896503": {
+        "duration": 272.0,
+        "submitTime": 1707108533,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "244764467": {
+        "duration": 147.0,
+        "submitTime": 1707008019,
+        "rating": 900,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "244607419": {
+        "duration": 347.0,
+        "submitTime": 1706904777,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "244486298": {
+        "duration": 894.0,
+        "submitTime": 1706841074,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "244345176": {
+        "duration": 360.0,
+        "submitTime": 1706761142,
+        "rating": 900,
+        "tags": [
+            "math"
+        ]
+    },
+    "244201747": {
+        "duration": 219.0,
+        "submitTime": 1706676686,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
+    },
+    "243975892": {
+        "duration": 160.0,
+        "submitTime": 1706560450,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
+    },
+    "243849324": {
+        "duration": 199.0,
+        "submitTime": 1706498866,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "243700482": {
+        "duration": 237.0,
+        "submitTime": 1706411776,
+        "rating": 1300,
+        "tags": [
+            "data structures",
+            "hashing",
+            "implementation"
+        ]
+    },
+    "247923264": {
+        "duration": 1090.0,
+        "submitTime": 1708701049,
+        "rating": null,
+        "tags": [
+            "dp",
+            "greedy",
+            "implementation"
+        ]
+    },
+    "247905345": {
+        "duration": 323.0,
+        "submitTime": 1708699785,
+        "rating": null,
+        "tags": [
+            "greedy",
+            "implementation"
+        ]
+    },
+    "247815967": {
+        "duration": 1295.0,
+        "submitTime": 1708655315,
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ]
+    },
+    "247158962": {
+        "duration": 649.0,
+        "submitTime": 1708320015,
+        "rating": null,
+        "tags": [
+            "number theory"
+        ]
+    },
+    "247157850": {
+        "duration": 129.0,
+        "submitTime": 1708319345,
+        "rating": null,
+        "tags": [
+            "dp",
+            "greedy",
+            "implementation"
+        ]
+    },
+    "246948780": {
+        "duration": 2694.0,
+        "submitTime": 1708238729,
+        "rating": 1200,
+        "tags": [
+            "binary search",
+            "data structures",
+            "greedy",
+            "implementation",
+            "math",
+            "sortings"
+        ]
+    },
+    "246943814": {
+        "duration": 1350.0,
+        "submitTime": 1708235546,
+        "rating": 900,
+        "tags": [
+            "games",
+            "math"
+        ]
+    },
+    "246745391": {
+        "duration": 2627.0,
+        "submitTime": 1708139599,
+        "rating": 1200,
+        "tags": [
+            "binary search",
+            "greedy",
+            "sortings",
+            "two pointers"
+        ]
+    },
+    "246743218": {
+        "duration": 267.0,
+        "submitTime": 1708136965,
+        "rating": 800,
+        "tags": [
+            "geometry",
+            "math"
+        ]
+    },
+    "246555637": {
+        "duration": 2735.0,
+        "submitTime": 1708013662,
+        "rating": 1400,
+        "tags": [
+            "binary search",
+            "brute force",
+            "constructive algorithms",
+            "games",
+            "greedy",
+            "math"
+        ]
+    },
+    "246535351": {
+        "duration": 2314.0,
+        "submitTime": 1708010837,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math"
+        ]
+    },
+    "246504822": {
+        "duration": 203.0,
+        "submitTime": 1708008334,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math",
+            "sortings"
+        ]
+    },
+    "246437197": {
+        "duration": 6201.0,
+        "submitTime": 1707976252,
+        "rating": 1400,
+        "tags": [
+            "bitmasks",
+            "greedy",
+            "implementation",
+            "math"
+        ]
+    },
+    "246430342": {
+        "duration": 1131.0,
+        "submitTime": 1707969986,
+        "rating": 900,
+        "tags": [
+            "constructive algorithms",
+            "data structures",
+            "greedy",
+            "implementation",
+            "sortings"
+        ]
+    },
+    "246429319": {
+        "duration": 148.0,
+        "submitTime": 1707968848,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "implementation",
+            "math"
+        ]
+    },
+    "246278089": {
+        "duration": 173.0,
+        "submitTime": 1707851670,
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ]
+    },
+    "246051513": {
+        "duration": 219.0,
+        "submitTime": 1707788856,
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings"
+        ]
+    },
+    "245927286": {
+        "duration": 541.0,
+        "submitTime": 1707697483,
+        "rating": 900,
+        "tags": [
+            "strings"
+        ]
+    },
+    "245763444": {
+        "duration": 472.0,
+        "submitTime": 1707593780,
+        "rating": 1200,
+        "tags": [
+            "combinatorics",
+            "constructive algorithms",
+            "math",
+            "sortings"
+        ]
+    },
+    "245663420": {
+        "duration": 441.0,
+        "submitTime": 1707539851,
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "strings"
+        ]
     }
 }
