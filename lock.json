@@ -3242,5 +3242,66 @@
             "greedy",
             "strings"
         ]
+    },
+    "250864224": {
+        "duration": 2508.0,
+        "submitTime": 1710207947,
+        "rating": 1700,
+        "tags": [
+            "constructive algorithms",
+            "dfs and similar",
+            "dsu",
+            "graphs",
+            "greedy",
+            "implementation",
+            "shortest paths"
+        ]
+    },
+    "250860938": {
+        "duration": 156.0,
+        "submitTime": 1710204535,
+        "rating": 1500,
+        "tags": [
+            "2-sat",
+            "brute force",
+            "constructive algorithms",
+            "greedy"
+        ]
+    },
+    "250471696": {
+        "duration": 4239.0,
+        "submitTime": 1710056181,
+        "rating": 1400,
+        "tags": [
+            "constructive algorithms",
+            "greedy",
+            "math",
+            "number theory"
+        ]
+    },
+    "249784735": {
+        "duration": 941.0,
+        "submitTime": 1709651523,
+        "rating": null,
+        "tags": [
+            "constructive algorithms"
+        ]
+    },
+    "249758611": {
+        "duration": 614.0,
+        "submitTime": 1709650035,
+        "rating": null,
+        "tags": [
+            "constructive algorithms",
+            "strings"
+        ]
+    },
+    "249741103": {
+        "duration": 212.0,
+        "submitTime": 1709647250,
+        "rating": null,
+        "tags": [
+            "implementation"
+        ]
     }
 }
