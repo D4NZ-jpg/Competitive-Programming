@@ -1,13 +1,15 @@
-// Problem: A. Vlad and the Best of Five
-// Contest: Codeforces - Codeforces Round 928 (Div. 4)
-// URL: https://codeforces.com/problemset/problem/1926/A
+// Problem: C. Clock Conversion
+// Contest: Codeforces - Codeforces Round 937 (Div. 4)
+// URL: https://codeforces.com/problemset/problem/1950/C
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 05-03-2024 07:57:18
-// Duration: 0:03:32
-// End: 2024-03-05 08:00:50
+// Start: 01-04-2024 12:53:43
+// Duration: 0:11:44
+// End: 2024-04-01 13:05:27
 // Rating: 800
 #include <bits/stdc++.h>
+
+#include <cstdlib>
 using namespace std;
 
 using ll  = long long;
@@ -31,15 +33,14 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		string s;
-		cin >> s;
-		ll a = 0, b = 0;
-		for (char& c : s) {
-			if (c == 'A') a++;
-			else
-				b++;
-		}
-		cout << (a > b ? "A" : "B") << endl;
+		string time;
+		cin >> time;
+
+		ll hour = atoi(time.substr(0, 2).c_str());
+		ll h =
+		  (hour != 12 && hour != 24 && hour != 0 ? hour % 12 : 12);
+		cout << (h < 10 ? "0" : "") << h << time.substr(2, 3) << ' '
+		     << (hour < 12 ? "AM" : "PM") << endl;
 	}
 
 	return 0;

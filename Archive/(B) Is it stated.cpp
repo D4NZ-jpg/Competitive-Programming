@@ -1,12 +1,12 @@
-// Problem: A. Thorns and Coins
-// Contest: Codeforces - Codeforces Round 927 (Div. 3)
-// URL: https://codeforces.com/problemset/problem/1932/A
-// Memory Limit: 512 MB
-// Time Limit: 1000 ms
-// Start: 18-02-2024 23:06:56
-// Duration: 0:02:09
-// End: 2024-02-18 23:09:05
-// Rating: 800
+// Problem: B. Is it stated?
+// Contest: Codeforces - April Fools Day Contest 2024
+// URL: https://codeforces.com/problemset/problem/1952/B
+// Memory Limit: 256 MB
+// Time Limit: 2000 ms
+// Start: 01-04-2024 13:47:29
+// Duration: 0:02:48
+// End: 2024-04-01 13:50:17
+// Rating: None
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -31,18 +31,19 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		ll     n;
 		string s;
-		cin >> n >> s;
-		ll ans = s[0] == '@';
+		cin >> s;
 
-		for (int i = 1; i < n; i++) {
-			if (s[i] == '@') ans++;
-			else if (s[i - 1] == '*' && s[i] == '*')
+		bool x = false;
+		for (int i = 0; i < s.size() - 1; i++)
+			if (s[i] == 'i' && s[i + 1] == 't') {
+				x = true;
 				break;
-		}
+			}
 
-		cout << ans << endl;
+		if (x) cout << "YES" << endl;
+		else
+			cout << "NO" << endl;
 	}
 
 	return 0;

@@ -1,11 +1,11 @@
-// Problem: A. Thorns and Coins
-// Contest: Codeforces - Codeforces Round 927 (Div. 3)
-// URL: https://codeforces.com/problemset/problem/1932/A
-// Memory Limit: 512 MB
-// Time Limit: 1000 ms
-// Start: 18-02-2024 23:06:56
-// Duration: 0:02:09
-// End: 2024-02-18 23:09:05
+// Problem: A. Maximize?
+// Contest: Codeforces - Codeforces Round 943 (Div. 3)
+// URL: https://codeforces.com/problemset/problem/1968/A
+// Memory Limit: 256 MB
+// Time Limit: 2000 ms
+// Start: 02-05-2024 08:45:14
+// Duration: 0:08:42
+// End: 2024-05-02 08:53:56
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,18 +31,16 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
-		ll ans = s[0] == '@';
+		ll x;
+		cin >> x;
 
-		for (int i = 1; i < n; i++) {
-			if (s[i] == '@') ans++;
-			else if (s[i - 1] == '*' && s[i] == '*')
-				break;
+		ll ans = 0, out = -1;
+		for (ll i = 1; i < x; i++) {
+			ll tmp = gcd(x, i) + i;
+			if (ans < tmp) ans = tmp, out = i;
 		}
 
-		cout << ans << endl;
+		cout << out << endl;
 	}
 
 	return 0;

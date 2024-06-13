@@ -1,11 +1,11 @@
-// Problem: A. Thorns and Coins
-// Contest: Codeforces - Codeforces Round 927 (Div. 3)
-// URL: https://codeforces.com/problemset/problem/1932/A
-// Memory Limit: 512 MB
+// Problem: A. Farmer John's Challenge
+// Contest: Codeforces - CodeTON Round 8 (Div. 1 + Div. 2, Rated, Prizes!)
+// URL: https://codeforces.com/problemset/problem/1942/A
+// Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 18-02-2024 23:06:56
-// Duration: 0:02:09
-// End: 2024-02-18 23:09:05
+// Start: 30-03-2024 08:41:32
+// Duration: 0:06:08
+// End: 2024-03-30 08:47:40
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,18 +31,18 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
-		ll ans = s[0] == '@';
+		ll n, k;
+		cin >> n >> k;
 
-		for (int i = 1; i < n; i++) {
-			if (s[i] == '@') ans++;
-			else if (s[i - 1] == '*' && s[i] == '*')
-				break;
+		if (k == 1) {
+			for (int i = 1; i <= n; i++) cout << i << ' ';
+			cout << endl;
+		} else if (k != n)
+			cout << -1 << endl;
+		else {
+			for (int i = 1; i <= n; i++) cout << 1 << ' ';
+			cout << endl;
 		}
-
-		cout << ans << endl;
 	}
 
 	return 0;

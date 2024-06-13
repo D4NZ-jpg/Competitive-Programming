@@ -1,11 +1,11 @@
-// Problem: A. Thorns and Coins
-// Contest: Codeforces - Codeforces Round 927 (Div. 3)
-// URL: https://codeforces.com/problemset/problem/1932/A
-// Memory Limit: 512 MB
+// Problem: A. My First Sorting Problem
+// Contest: Codeforces - Codeforces Round 944 (Div. 4)
+// URL: https://codeforces.com/problemset/problem/1971/A
+// Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 18-02-2024 23:06:56
-// Duration: 0:02:09
-// End: 2024-02-18 23:09:05
+// Start: 16-05-2024 16:45:13
+// Duration: 0:00:27
+// End: 2024-05-16 16:45:40
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,18 +31,9 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
-		ll ans = s[0] == '@';
-
-		for (int i = 1; i < n; i++) {
-			if (s[i] == '@') ans++;
-			else if (s[i - 1] == '*' && s[i] == '*')
-				break;
-		}
-
-		cout << ans << endl;
+		ll x, y;
+		cin >> x >> y;
+		cout << min(x, y) << ' ' << max(x, y) << endl;
 	}
 
 	return 0;

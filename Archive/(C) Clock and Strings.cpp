@@ -1,12 +1,12 @@
-// Problem: A. Vlad and the Best of Five
-// Contest: Codeforces - Codeforces Round 928 (Div. 4)
-// URL: https://codeforces.com/problemset/problem/1926/A
+// Problem: C. Clock and Strings
+// Contest: Codeforces - Codeforces Round 944 (Div. 4)
+// URL: https://codeforces.com/problemset/problem/1971/C
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 05-03-2024 07:57:18
-// Duration: 0:03:32
-// End: 2024-03-05 08:00:50
-// Rating: 800
+// Start: 16-05-2024 17:37:11
+// Duration: 0:04:42
+// End: 2024-05-16 17:41:53
+// Rating: 900
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -31,15 +31,18 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		string s;
-		cin >> s;
-		ll a = 0, b = 0;
-		for (char& c : s) {
-			if (c == 'A') a++;
-			else
-				b++;
+		vector<pair<int, bool>> v(4);
+		for (int i = 0; i < 4; i++) {
+			cin >> v[i].first;
+			v[i].second = i < 2;
 		}
-		cout << (a > b ? "A" : "B") << endl;
+
+		sort(all(v));
+		bool x = false;
+		for (int i = 0; i < 3 && !x; i++)
+			if (v[i].second == v[i + 1].second) x = true;
+
+		cout << (!x ? "YES" : "NO") << endl;
 	}
 
 	return 0;

@@ -1,11 +1,11 @@
-// Problem: A. Moving Chips
-// Contest: Codeforces - Educational Codeforces Round 162 (Rated for Div. 2)
-// URL: https://codeforces.com/problemset/problem/1923/A
-// Memory Limit: 512 MB
-// Time Limit: 2000 ms
-// Start: 23-02-2024 08:44:22
-// Duration: 0:05:23
-// End: 2024-02-23 08:49:45
+// Problem: A. Stickogon
+// Contest: Codeforces - Codeforces Round 940 (Div. 2) and CodeCraft-23
+// URL: https://codeforces.com/problemset/problem/1957/A
+// Memory Limit: 256 MB
+// Time Limit: 1000 ms
+// Start: 14-05-2024 22:02:47
+// Duration: 0:01:41
+// End: 2024-05-14 22:04:28
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,19 +33,15 @@ int main() {
 	while (tc--) {
 		ll n;
 		cin >> n;
-
-		bool started = false;
-		ll   zeros = 0, ans = 0;
+		vector<ll> v(101);
 		for (int i = 0; i < n; i++) {
-			bool x;
+			ll x;
 			cin >> x;
-			if (x) started = true;
-			if (!started) continue;
-
-			if (x) ans = zeros;
-			else
-				zeros++;
+			v[x]++;
 		}
+
+		ll ans = 0;
+		for (int i = 1; i <= 100; i++) ans += v[i] / 3;
 		cout << ans << endl;
 	}
 

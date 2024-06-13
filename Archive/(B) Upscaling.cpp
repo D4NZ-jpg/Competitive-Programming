@@ -1,11 +1,11 @@
-// Problem: A. Thorns and Coins
-// Contest: Codeforces - Codeforces Round 927 (Div. 3)
-// URL: https://codeforces.com/problemset/problem/1932/A
-// Memory Limit: 512 MB
+// Problem: B. Upscaling
+// Contest: Codeforces - Codeforces Round 937 (Div. 4)
+// URL: https://codeforces.com/problemset/problem/1950/B
+// Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 18-02-2024 23:06:56
-// Duration: 0:02:09
-// End: 2024-02-18 23:09:05
+// Start: 01-04-2024 12:50:54
+// Duration: 0:11:04
+// End: 2024-04-01 13:01:58
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,18 +31,16 @@ int main() {
 	int tc;
 	cin >> tc;
 	while (tc--) {
-		ll     n;
-		string s;
-		cin >> n >> s;
-		ll ans = s[0] == '@';
-
-		for (int i = 1; i < n; i++) {
-			if (s[i] == '@') ans++;
-			else if (s[i - 1] == '*' && s[i] == '*')
-				break;
+		ll n;
+		cin >> n;
+		for (int i = 0; i < 2 * n; i++) {
+			for (int j = 0; j < 2 * n; j++) {
+				if (i / 2 % 2) cout << (j / 2 % 2 ? '#' : '.');
+				else
+					cout << (j / 2 % 2 ? '.' : '#');
+			}
+			cout << endl;
 		}
-
-		cout << ans << endl;
 	}
 
 	return 0;

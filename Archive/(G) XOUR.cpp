@@ -1,12 +1,12 @@
-// Problem: A. Moving Chips
-// Contest: Codeforces - Educational Codeforces Round 162 (Rated for Div. 2)
-// URL: https://codeforces.com/problemset/problem/1923/A
-// Memory Limit: 512 MB
+// Problem: G. XOUR
+// Contest: Codeforces - Codeforces Round 944 (Div. 4)
+// URL: https://codeforces.com/problemset/problem/1971/G
+// Memory Limit: 256 MB
 // Time Limit: 2000 ms
-// Start: 23-02-2024 08:44:22
-// Duration: 0:05:23
-// End: 2024-02-23 08:49:45
-// Rating: 800
+// Start: 16-05-2024 19:15:31
+// Duration: 0:10:48
+// End: 2024-05-16 19:26:19
+// Rating: 1700
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -34,19 +34,18 @@ int main() {
 		ll n;
 		cin >> n;
 
-		bool started = false;
-		ll   zeros = 0, ans = 0;
-		for (int i = 0; i < n; i++) {
-			bool x;
-			cin >> x;
-			if (x) started = true;
-			if (!started) continue;
+		vector<ll> v(n);
+		for (auto& i : v) cin >> i;
 
-			if (x) ans = zeros;
-			else
-				zeros++;
+		map<ll, priority_queue<ll, vector<ll>, greater<ll>>> q;
+
+		for (const ll& x : v) q[x >> 2].push(x);
+
+		for (const ll& i : v) {
+			cout << q[i >> 2].top() << ' ';
+			q[i >> 2].pop();
 		}
-		cout << ans << endl;
+		cout << endl;
 	}
 
 	return 0;

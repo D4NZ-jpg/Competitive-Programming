@@ -1,12 +1,12 @@
-// Problem: B. Chaya Calendar
-// Contest: Codeforces - Codeforces Round 927 (Div. 3)
-// URL: https://codeforces.com/problemset/problem/1932/B
+// Problem: A. Special Characters
+// Contest: Codeforces - Educational Codeforces Round 163 (Rated for Div. 2)
+// URL: https://codeforces.com/problemset/problem/1948/A
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
-// Start: 18-02-2024 23:09:26
-// Duration: 0:10:49
-// End: 2024-02-18 23:20:15
-// Rating: 1100
+// Start: 15-03-2024 08:35:55
+// Duration: 0:08:40
+// End: 2024-03-15 08:44:35
+// Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,6 +20,18 @@ using pll = pair<ll, ll>;
 #define pb(x)     push_back(x)
 #define endl      '\n'
 
+void solve() {
+	ll n;
+	cin >> n;
+	if (n % 2) {
+		cout << "NO" << endl;
+		return;
+	}
+	cout << "YES" << endl;
+	for (int i = 0; i < n; i++) cout << char('A' + (i / 2) % 2);
+	cout << endl;
+}
+
 int main() {
 #ifdef DEBUG
 	std::cout << std::unitbuf;
@@ -30,17 +42,7 @@ int main() {
 
 	int tc;
 	cin >> tc;
-	while (tc--) {
-		ll n;
-		cin >> n;
+	while (tc--) solve();
 
-		vector<ll> v(n);
-		for (auto& i : v) cin >> i;
-
-		ll curr = v[0];
-		for (int i = 1; i < n; i++)
-			curr = (curr + v[i]) / v[i] * v[i];
-		cout << curr << endl;
-	}
 	return 0;
 }

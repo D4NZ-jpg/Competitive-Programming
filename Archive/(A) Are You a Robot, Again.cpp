@@ -1,12 +1,12 @@
-// Problem: A. Vlad and the Best of Five
-// Contest: Codeforces - Codeforces Round 928 (Div. 4)
-// URL: https://codeforces.com/problemset/problem/1926/A
+// Problem: A. Are You a Robot, Again?
+// Contest: Codeforces - April Fools Day Contest 2024
+// URL: https://codeforces.com/problemset/problem/1952/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 05-03-2024 07:57:18
-// Duration: 0:03:32
-// End: 2024-03-05 08:00:50
-// Rating: 800
+// Start: 01-04-2024 13:46:47
+// Duration: 0:01:01
+// End: 2024-04-01 13:47:48
+// Rating: None
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -28,19 +28,7 @@ int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int tc;
-	cin >> tc;
-	while (tc--) {
-		string s;
-		cin >> s;
-		ll a = 0, b = 0;
-		for (char& c : s) {
-			if (c == 'A') a++;
-			else
-				b++;
-		}
-		cout << (a > b ? "A" : "B") << endl;
-	}
+	cout << "safety";
 
 	return 0;
 }

@@ -1,12 +1,12 @@
-// Problem: A. Vlad and the Best of Five
-// Contest: Codeforces - Codeforces Round 928 (Div. 4)
-// URL: https://codeforces.com/problemset/problem/1926/A
+// Problem: B. Coin Games
+// Contest: Codeforces - Codeforces Round 942 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/1972/B
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 05-03-2024 07:57:18
-// Duration: 0:03:32
-// End: 2024-03-05 08:00:50
-// Rating: 800
+// Start: 30-04-2024 08:47:35
+// Duration: 0:44:45
+// End: 2024-04-30 09:32:20
+// Rating: 900
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,6 +20,20 @@ using pll = pair<ll, ll>;
 #define pb(x)     push_back(x)
 #define endl      '\n'
 
+
+
+bool solve(){
+    ll n;
+    string s;
+
+    cin >> n >> s;
+
+    ll cnt = 0;
+    for(char& c: s) if(c!='D') cnt++;
+    return cnt%2;
+
+}
+
 int main() {
 #ifdef DEBUG
 	std::cout << std::unitbuf;
@@ -28,19 +42,8 @@ int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int tc;
-	cin >> tc;
-	while (tc--) {
-		string s;
-		cin >> s;
-		ll a = 0, b = 0;
-		for (char& c : s) {
-			if (c == 'A') a++;
-			else
-				b++;
-		}
-		cout << (a > b ? "A" : "B") << endl;
-	}
+    int tc; cin >> tc;
+    while(tc--) cout << (solve() ? "YES":"NO") << endl;
 
 	return 0;
 }

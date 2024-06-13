@@ -1,12 +1,12 @@
-// Problem: A. Entertainment in MAC
-// Contest: Codeforces - Codeforces Round 932 (Div. 2)
-// URL: https://codeforces.com/problemset/problem/1935/A
+// Problem: A. Dual Trigger
+// Contest: Codeforces - Codeforces Global Round 25
+// URL: https://codeforces.com/problemset/problem/1951/A
 // Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Start: 05-03-2024 08:37:01
-// Duration: 0:10:14
-// End: 2024-03-05 08:47:15
-// Rating: 800
+// Start: 06-04-2024 08:35:07
+// Duration: 0:23:42
+// End: 2024-04-06 08:58:49
+// Rating: 900
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,17 +35,17 @@ int main() {
 		string s;
 		cin >> n >> s;
 
-		for (int i = 0; i < s.size() / 2; i++) {
-			if (s[i] < s[s.size() - 1 - i]) break;
-			if (s[i] > s[s.size() - 1 - i]) {
-				string tmp = s;
-				reverse(all(s));
-				s += tmp;
-				break;
-			}
-		}
-		cout << s << endl;
-	}
+		bool nt  = false;
+		ll   cnt = s[n - 1] == '1';
 
+		for (int i = 0; i + 1 < n; i++)
+			nt = nt || (s[i] == '1' && s[i + 1] == '1'),
+			cnt += s[i] == '1';
+
+		if (cnt % 2 || (n == 2 && cnt) || (cnt == 2 && nt))
+			cout << "NO" << endl;
+		else
+			cout << "YES" << endl;
+	}
 	return 0;
 }

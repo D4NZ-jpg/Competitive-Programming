@@ -1,11 +1,11 @@
-// Problem: A. Moving Chips
-// Contest: Codeforces - Educational Codeforces Round 162 (Rated for Div. 2)
-// URL: https://codeforces.com/problemset/problem/1923/A
-// Memory Limit: 512 MB
-// Time Limit: 2000 ms
-// Start: 23-02-2024 08:44:22
-// Duration: 0:05:23
-// End: 2024-02-23 08:49:45
+// Problem: A. Median of an Array
+// Contest: Codeforces - Codeforces Round 936 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/1946/A
+// Memory Limit: 256 MB
+// Time Limit: 1000 ms
+// Start: 22-03-2024 08:35:19
+// Duration: 0:06:54
+// End: 2024-03-22 08:42:13
 // Rating: 800
 #include <bits/stdc++.h>
 using namespace std;
@@ -34,18 +34,17 @@ int main() {
 		ll n;
 		cin >> n;
 
-		bool started = false;
-		ll   zeros = 0, ans = 0;
-		for (int i = 0; i < n; i++) {
-			bool x;
-			cin >> x;
-			if (x) started = true;
-			if (!started) continue;
+		vector<ll> v(n);
+		for (auto& i : v) cin >> i;
 
-			if (x) ans = zeros;
-			else
-				zeros++;
-		}
+		sort(all(v));
+
+		ll ans = 1;
+		v[(n + 1) / 2 - 1]++;
+		for (int i = (n + 1) / 2; i < n; i++)
+			if (v[i - 1] > v[i])
+				ans += v[i - 1] - v[i], v[i] = v[i - 1];
+
 		cout << ans << endl;
 	}
 
