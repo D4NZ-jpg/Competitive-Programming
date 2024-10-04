@@ -1,7 +1,7 @@
-from Scraper import Codeforces
+from scripts.Scraper import Codeforces
+from scripts.graph import updateAll
 from dotenv import dotenv_values
 from time import sleep
-from graph import updateAll
 import json
 import os
 import re
@@ -58,7 +58,7 @@ class FileManager:
 
 # Download everything
 handle = dotenv_values(".env")["HANDLE"]
-fm = FileManager("./lock.json")
+fm = FileManager("./scripts/lock.json")
 cf = Codeforces(handle)
 
 # For things like gym submissions
@@ -68,22 +68,23 @@ submissions = cf.getSubmissionList()
 submissions = [
     sub
     for sub in submissions
-    if (
-        not str(sub.id) in fm.lockData
-        or fm.lockData[str(sub.id)]["rating"] is None
-    )
+    if (not str(sub.id) in fm.lockData or fm.lockData[str(sub.id)]["rating"] is None)
     and sub.contestId not in contestExclude
 ]
 for i, sub in enumerate(submissions):
     print(f"{i}/{len(submissions)}")
-    sub.getCode()
+    try:
+        sub.getCode()
 
-    sub.extractMetadata()
-    sub.writeHeaders()
+        sub.extractMetadata()
+        sub.writeHeaders()
 
-    fm.writeFile(sub)
+        fm.writeFile(sub)
 
-    # Prevent getting call limit
+        # Prevent getting call limit
+    except AttributeError:
+        print(f"error geting submission {i}")
+
     sleep(2)
 
 print(f"{len(submissions)}/{len(submissions)}")

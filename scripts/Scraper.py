@@ -53,17 +53,15 @@ class Submission:
 
         # Get rating
         metadata["Rating"] = self.problem.rating
-        metadata[
-            "URL"
-        ] = f"https://codeforces.com/problemset/problem/{self.contestId}/{self.problem.index}"
+        metadata["URL"] = (
+            f"https://codeforces.com/problemset/problem/{self.contestId}/{self.problem.index}"
+        )
         self.metadata = metadata
 
     def writeHeaders(self):
         code = re.search(r"#include.*(?=$)", self.code, re.DOTALL).group()
 
-        headers = "\n".join(
-            f"// {key}: {self.metadata[key]}" for key in self.metadata
-        )
+        headers = "\n".join(f"// {key}: {self.metadata[key]}" for key in self.metadata)
 
         self.code = "\n".join([headers, code])
 

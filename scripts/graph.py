@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib import dates, ticker
 from dotenv import dotenv_values
-from Scraper import Codeforces
+from scripts.Scraper import Codeforces
 
 groups = [
     (800, 1100),

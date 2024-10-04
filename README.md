@@ -7,7 +7,7 @@ statistics from my performance in competitive programming. While it is
 initially set up for personal use, others are welcome to view it.
 
 ## Some cool graphs
-![problems distribution](img/problems.png)
+![problems distribution](assets/problems.png)
 
 ## Structure
 
