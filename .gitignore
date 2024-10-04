@@ -1,3 +1,4 @@
 .vscode/
 .env
 coding/
+**/__pycache__
